@@ -26,7 +26,8 @@
         <md-card-title-text>
           <span class="md-headline">
               <md-button class="md-icon-button md-raised md-accent" ng-click="psuStatus()">
-                  <md-icon>power</md-icon> Check Status 
+                  <md-tooltip md-direction="top">Check Status</md-tooltip>
+                  <md-icon>network_check</md-icon>
                 </md-button> Main Power
           </span>
         </md-card-title-text>
@@ -39,16 +40,20 @@
               <md-icon class="off" ng-if="minerstatus.psu =='OFF'">offline_bolt</md-icon>
             </md-button>
           </md-card-icon-actions>
-          <md-button class="md-raised md-success" ng-click="psuRUN()" ng-if="!confirmAll">
+          <md-button class="md-raised md-success" ng-click="psuRUN()" ng-if="!confirmAllon && !confirmAlloff">
             <md-icon>power_settings_new</md-icon> RUN
           </md-button>
-          <md-button class="md-raised md-accent" ng-click="psuSTOP()" ng-if="!confirmAll">
+          <md-button class="md-raised md-accent" ng-click="psuSTOP()" ng-if="!confirmAllon && !confirmAlloff">
             <md-icon>power_settings_new</md-icon> STOP
           </md-button>
-          <md-button class="md-raised md-warn" ng-click="psuALLON()" ng-if="confirmAll">
+          <md-button class="md-raised md-warn" ng-click="psuALLON()" ng-if="confirmAllon">
             <md-icon>offline_bolt</md-icon> ALL MINER ON!
           </md-button>
-          <md-switch ng-model="confirmAll"> All ON </md-switch>
+          <md-button class="md-raised md-warn" ng-click="psuALLOFF()" ng-if="confirmAlloff">
+            <md-icon>offline_bolt</md-icon> ALL MINER OFF!
+          </md-button>
+          <md-switch ng-model="confirmAllon"> All ON </md-switch>
+          <md-switch ng-model="confirmAlloff"> All OFF </md-switch>
         </md-card-actions>
       </md-card-content>
     </md-card>
@@ -70,6 +75,9 @@
           </md-card-icon-actions>
           <md-button class="md-raised md-primary" ng-click="modemRESET()">
             <md-icon>cached</md-icon> RESET
+          </md-button>
+          <md-button class="md-secondary" ng-href="http://192.168.1.1" target="_blank">
+            <md-icon>wifi</md-icon> Manage
           </md-button>
         </md-card-actions>
       </md-card-content>
@@ -119,11 +127,13 @@
       <md-card-title>
         <md-card-title-text>
           <span class="md-headline">
-            <md-icon class="large">setting</md-icon> IP Settings
+            <md-icon class="large">settings</md-icon> Information
           </span>
+          <h3 ng-controller="deviceController">R: {{rCount}} S: {{sCount}} T: {{tCount}}</h3>
         </md-card-title-text>
       </md-card-title>
       <md-card-content>
+             
         <md-input-container class="md-block" md-no-float flex>
           <span>Arduino</span>
            {{espip}} 
@@ -159,7 +169,7 @@
         <label>Device Type</label>
         <md-select name="type" ng-model="filterItem.type">
           <md-option value="s9i">Antminer S9i</md-option>
-          <md-option value="s9j">Antminer S9i</md-option>
+          <md-option value="s9j">Antminer S9j</md-option>
           <md-option value="s11">Antminer S11</md-option>
           <md-option value="Avalon">Avalon 851</md-option>
         </md-select>
@@ -176,7 +186,7 @@
       <md-input-container class="md-block" flex>
         <md-button class="md-raised md-primary" ng-click="clearFilter();"> Clear </md-button>
         <md-button class="md-raised md-accent" ng-click="relayStatus()">
-          <md-icon>power</md-icon> Check Status
+          <md-icon>network_check</md-icon> Check Status
         </md-button>
       </md-input-container>
     </md-content>

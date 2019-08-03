@@ -26,36 +26,31 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
     $scope.psuSTOP = function () {
       $http.get($rootScope.espip + 'MINER_STOP').then(function (response) {
         $scope.psuresponse = response.data;
-      }, function (data) {
-        $window.location.reload();
       });
     }
     $scope.psuALLON = function () {
       $http.get($rootScope.espip + 'MINERALL_ON').then(function (response) {
         $scope.psuresponse = response.data;
-      }, function (data) {
-        $window.location.reload();
+      });
+    }
+    $scope.psuALLOFF = function () {
+      $http.get($rootScope.espip + 'MINERALL_OFF').then(function (response) {
+        $scope.psuresponse = response.data;
       });
     }
     $scope.modemRESET = function () {
       $http.get($rootScope.espip + 'MODEMRESET').then(function (response) {
         $scope.modemresponse = response.data;
-      }, function (data) {
-        $window.location.reload();
       });
     }
     $scope.camOFF = function () {
       $http.get($rootScope.espip + 'CAMOFF').then(function (response) {
         $scope.camresponse = response.data;
-      }, function (data) {
-        $window.location.reload();
       });
     }
     $scope.camRESET = function () {
       $http.get($rootScope.espip + 'CAMRESET').then(function (response) {
         $scope.camresponse = response.data;
-      }, function (data) {
-        $window.location.reload();
       });
     }
   }])
@@ -64,6 +59,10 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
     $http.get('https://raw.githubusercontent.com/3ehzad/prc/master/devicelist.json?_=' + Date.now(), { cache: false }).then(function (data) {
       $scope.devicelist = data.data;
       $scope.isLoading = false;
+      var str = JSON.stringify($scope.devicelist)
+      $scope.rCount = (str.match(/\"R\"/g) || []).length;
+      $scope.sCount = (str.match(/\"S\"/g) || []).length;
+      $scope.tCount = (str.match(/\"T\"/g) || []).length;
     });
     $scope.customFilter = function (data) {
       if ($scope.filterItem !== undefined) {

@@ -100,7 +100,7 @@
         "relay": "13",
         "os": "X",
         "type": "X",
-        "phase": "R",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -108,7 +108,7 @@
         "relay": "14",
         "os": "X",
         "type": "X",
-        "phase": "R",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -124,7 +124,7 @@
         "relay": "16",
         "os": "B",
         "type": "s9j",
-        "phase": "R",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -180,7 +180,7 @@
         "relay": "23",
         "os": "B",
         "type": "s9j",
-        "phase": "T",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -188,7 +188,7 @@
         "relay": "24",
         "os": "B",
         "type": "s9j",
-        "phase": "T",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -252,7 +252,7 @@
         "relay": "32",
         "os": "X",
         "type": "X",
-        "phase": "S",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -292,7 +292,7 @@
         "relay": "37",
         "os": "X",
         "type": "X",
-        "phase": "R",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -300,7 +300,7 @@
         "relay": "38",
         "os": "X",
         "type": "X",
-        "phase": "R",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -308,7 +308,7 @@
         "relay": "39",
         "os": "X",
         "type": "X",
-        "phase": "R",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -316,7 +316,7 @@
         "relay": "40",
         "os": "X",
         "type": "X",
-        "phase": "R",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -324,7 +324,7 @@
         "relay": "41",
         "os": "X",
         "type": "X",
-        "phase": "S",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -332,7 +332,7 @@
         "relay": "42",
         "os": "X",
         "type": "X",
-        "phase": "S",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -340,7 +340,7 @@
         "relay": "43",
         "os": "X",
         "type": "X",
-        "phase": "S",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -348,7 +348,7 @@
         "relay": "44",
         "os": "X",
         "type": "X",
-        "phase": "S",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -356,7 +356,7 @@
         "relay": "45",
         "os": "X",
         "type": "X",
-        "phase": "T",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -364,7 +364,7 @@
         "relay": "46",
         "os": "X",
         "type": "X",
-        "phase": "T",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -372,7 +372,7 @@
         "relay": "47",
         "os": "X",
         "type": "X",
-        "phase": "T",
+        "phase": "X",
         "name": "X"
     },
     {
@@ -380,7 +380,7 @@
         "relay": "48",
         "os": "X",
         "type": "X",
-        "phase": "T",
+        "phase": "X",
         "name": "X"
     }
 ]
