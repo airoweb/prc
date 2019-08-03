@@ -74,24 +74,24 @@
     {
         "uid": 112,
         "relay": "10",
-        "os": "B-sd*",
-        "type": "s9j14",
+        "os": "B-sd",
+        "type": "s9j",
         "phase": "T",
         "name": "Behzad"
     },
     {
         "uid": 111,
         "relay": "11",
-        "os": "B-sd*",
-        "type": "s9j14",
+        "os": "B-sd",
+        "type": "s9j",
         "phase": "T",
         "name": "Behzad"
     },
     {
         "uid": 110,
         "relay": "12",
-        "os": "B-sd*",
-        "type": "s9j14",
+        "os": "B-sd",
+        "type": "s9j",
         "phase": "T",
         "name": "Behzad"
     },
