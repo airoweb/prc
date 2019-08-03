@@ -50,7 +50,7 @@
     {
         "uid": 107,
         "relay": "07",
-        "os": "A",
+        "os": "B-sd",
         "type": "s9i",
         "phase": "S",
         "name": "Reza"
@@ -58,7 +58,7 @@
     {
         "uid": 108,
         "relay": "08",
-        "os": "A",
+        "os": "B-sd",
         "type": "s9i",
         "phase": "S",
         "name": "Reza"
