@@ -96,7 +96,7 @@
         "name": "Behzad"
     },
     {
-        "uid": 113,
+        "uid": "IP",
         "relay": "13",
         "os": "B",
         "type": "s9j",
@@ -104,7 +104,7 @@
         "name": "Vahid"
     },
     {
-        "uid": 114,
+        "uid": "IP",
         "relay": "14",
         "os": "B",
         "type": "s9j",
@@ -120,12 +120,12 @@
         "name": "Amir"
     },
     {
-        "uid": 124,
+        "uid": "IP",
         "relay": "16",
         "os": "B",
         "type": "s9j",
         "phase": "R",
-        "name": "Amir"
+        "name": "Vahid"
     },
     {
         "uid": 117,
@@ -136,12 +136,12 @@
         "name": "Amir"
     },
     {
-        "uid": "IP",
+        "uid": 124,
         "relay": "18",
-        "os": "A",
+        "os": "B",
         "type": "s9j",
         "phase": "S",
-        "name": "Vahid"
+        "name": "Amir"
     },
     {
         "uid": 121,
@@ -160,20 +160,20 @@
         "name": "Behzad"
     },
     {
-        "uid": "IP",
+        "uid": 113,
         "relay": "21",
         "os": "B",
         "type": "s9j",
         "phase": "T",
-        "name": "Behzad"
+        "name": "Vahid"
     },
     {
-        "uid": "IP",
+        "uid": 114,
         "relay": "22",
         "os": "B",
         "type": "s9j",
         "phase": "T",
-        "name": "Behzad"
+        "name": "Vahid"
     },
     {
         "uid": "IP",
