@@ -1,0 +1,19 @@
+<md-dialog aria-label="Device Control Center">
+    <form name="devcontrol">
+        <md-toolbar class="md-hue-1">
+            <div class="md-toolbar-tools">
+                    <md-button class="md-icon-button" ng-click="hide()">
+                            <md-icon>close</md-icon>
+                        </md-button>
+                <h2>{{device.name}} ᛫ IP: {{device.uid}} ᛫ {{device.type}}</h2>
+            </div>
+        </md-toolbar>
+        <md-dialog-content>
+            <div layout-gt-sm="row">
+                <md-button class="md-raised md-success" ng-click="relayON(device.relay)"><md-icon>power_settings_new</md-icon> ON</md-button>
+                <md-button class="md-raised md-accent" ng-click="relayOFF(device.relay)"><md-icon>power_settings_new</md-icon> OFF</md-button>
+                <md-button class="md-raised md-primary" ng-click="manage(device.uid)" target="_blank"><md-icon>settings</md-icon> Manage</md-button>
+            </div>
+        </md-dialog-content>
+    </form>
+</md-dialog>

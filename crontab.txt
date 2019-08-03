@@ -1,0 +1,6 @@
+30 22 * * * cp /root/cgminer.conf.midnight /etc/cgminer.conf && /etc/init.d/cgminer reload
+30 08 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload
+30 11 * * * cp /root/cgminer.conf.low /etc/cgminer.conf && /etc/init.d/cgminer reload
+30 13 * * * /etc/init.d/cgminer stop
+30 18 * * * /etc/init.d/cgminer start
+30 20 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload

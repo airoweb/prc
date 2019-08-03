@@ -1,0 +1,386 @@
+[
+    {
+        "uid": 101,
+        "relay": "01",
+        "os": "B",
+        "type": "s9j",
+        "phase": "R",
+        "name": "Reza"
+    },
+    {
+        "uid": 102,
+        "relay": "02",
+        "os": "B",
+        "type": "s9j",
+        "phase": "R",
+        "name": "Reza"
+    },
+    {
+        "uid": 103,
+        "relay": "03",
+        "os": "B-sd",
+        "type": "s9i",
+        "phase": "R",
+        "name": "Reza"
+    },
+    {
+        "uid": 104,
+        "relay": "04",
+        "os": "B-sd",
+        "type": "s9i",
+        "phase": "R",
+        "name": "Reza"
+    },
+    {
+        "uid": 105,
+        "relay": "05",
+        "os": "B-sd",
+        "type": "s9j",
+        "phase": "S",
+        "name": "Reza"
+    },
+    {
+        "uid": 106,
+        "relay": "06",
+        "os": "B-sd",
+        "type": "s9i",
+        "phase": "S",
+        "name": "Reza"
+    },
+    {
+        "uid": 107,
+        "relay": "07",
+        "os": "A",
+        "type": "s9i",
+        "phase": "S",
+        "name": "Reza"
+    },
+    {
+        "uid": 108,
+        "relay": "08",
+        "os": "A",
+        "type": "s9i",
+        "phase": "S",
+        "name": "Reza"
+    },
+    {
+        "uid": 109,
+        "relay": "09",
+        "os": "B-sd",
+        "type": "s9j",
+        "phase": "R",
+        "name": "Reza"
+    },
+    {
+        "uid": 110,
+        "relay": "10",
+        "os": "B-sd*",
+        "type": "s9j14",
+        "phase": "T",
+        "name": "Behzad"
+    },
+    {
+        "uid": 111,
+        "relay": "11",
+        "os": "B-sd*",
+        "type": "s9j14",
+        "phase": "T",
+        "name": "Behzad"
+    },
+    {
+        "uid": 112,
+        "relay": "12",
+        "os": "B-sd*",
+        "type": "s9j14",
+        "phase": "T",
+        "name": "Behzad"
+    },
+    {
+        "uid": 113,
+        "relay": "13",
+        "os": "B",
+        "type": "s9j",
+        "phase": "R",
+        "name": "Vahid"
+    },
+    {
+        "uid": 114,
+        "relay": "14",
+        "os": "B",
+        "type": "s9j",
+        "phase": "R",
+        "name": "Vahid"
+    },
+    {
+        "uid": 123,
+        "relay": "15",
+        "os": "B",
+        "type": "s9j",
+        "phase": "R",
+        "name": "Amir"
+    },
+    {
+        "uid": 124,
+        "relay": "16",
+        "os": "B",
+        "type": "s9j",
+        "phase": "R",
+        "name": "Amir"
+    },
+    {
+        "uid": 117,
+        "relay": "17",
+        "os": "A",
+        "type": "s11",
+        "phase": "S",
+        "name": "Amir"
+    },
+    {
+        "uid": "IP",
+        "relay": "18",
+        "os": "A",
+        "type": "s9j",
+        "phase": "S",
+        "name": "Vahid"
+    },
+    {
+        "uid": 121,
+        "relay": "19",
+        "os": "B",
+        "type": "s9j",
+        "phase": "S",
+        "name": "Behzad"
+    },
+    {
+        "uid": 122,
+        "relay": "20",
+        "os": "B",
+        "type": "s9j",
+        "phase": "S",
+        "name": "Behzad"
+    },
+    {
+        "uid": "IP",
+        "relay": "21",
+        "os": "B",
+        "type": "s9j",
+        "phase": "T",
+        "name": "Behzad"
+    },
+    {
+        "uid": "IP",
+        "relay": "22",
+        "os": "B",
+        "type": "s9j",
+        "phase": "T",
+        "name": "Behzad"
+    },
+    {
+        "uid": "IP",
+        "relay": "23",
+        "os": "B",
+        "type": "s9j",
+        "phase": "T",
+        "name": "Amir"
+    },
+    {
+        "uid": "IP",
+        "relay": "24",
+        "os": "B",
+        "type": "s9j",
+        "phase": "T",
+        "name": "Amir"
+    },
+    {
+        "uid": 129,
+        "relay": "25",
+        "os": "AV",
+        "type": "Avalon",
+        "phase": "R",
+        "name": "Hamid"
+    },
+    {
+        "uid": 129,
+        "relay": "26",
+        "os": "AV",
+        "type": "Avalon",
+        "phase": "R",
+        "name": "Hamid"
+    },
+    {
+        "uid": 129,
+        "relay": "27",
+        "os": "AV",
+        "type": "Avalon",
+        "phase": "R",
+        "name": "Hamid"
+    },
+    {
+        "uid": 129,
+        "relay": "28",
+        "os": "AV",
+        "type": "Avalon",
+        "phase": "R",
+        "name": "Hamid"
+    },
+    {
+        "uid": 129,
+        "relay": "29",
+        "os": "AV",
+        "type": "Avalon",
+        "phase": "S",
+        "name": "Hamid"
+    },
+    {
+        "uid": 130,
+        "relay": "30",
+        "os": "B",
+        "type": "s9j",
+        "phase": "S",
+        "name": "Hamid"
+    },
+    {
+        "uid": 131,
+        "relay": "31",
+        "os": "B",
+        "type": "s9j",
+        "phase": "S",
+        "name": "Hamid"
+    },
+    {
+        "uid": "IP",
+        "relay": "32",
+        "os": "A",
+        "type": "s9j",
+        "phase": "R",
+        "name": "Behzad"
+    },
+    {
+        "uid": 133,
+        "relay": "33",
+        "os": "A",
+        "type": "s11",
+        "phase": "T",
+        "name": "Hamid"
+    },
+    {
+        "uid": 134,
+        "relay": "34",
+        "os": "A",
+        "type": "s11",
+        "phase": "T",
+        "name": "Hamid"
+    },
+    {
+        "uid": 135,
+        "relay": "35",
+        "os": "A",
+        "type": "s11",
+        "phase": "T",
+        "name": "Azmian"
+    },
+    {
+        "uid": 136,
+        "relay": "36",
+        "os": "A",
+        "type": "s11",
+        "phase": "T",
+        "name": "Reza"
+    },
+    {
+        "uid": "IP",
+        "relay": "37",
+        "os": "X",
+        "type": "X",
+        "phase": "X",
+        "name": "X"
+    },
+    {
+        "uid": "IP",
+        "relay": "38",
+        "os": "X",
+        "type": "X",
+        "phase": "X",
+        "name": "X"
+    },
+    {
+        "uid": "IP",
+        "relay": "39",
+        "os": "X",
+        "type": "X",
+        "phase": "X",
+        "name": "X"
+    },
+    {
+        "uid": "IP",
+        "relay": "40",
+        "os": "X",
+        "type": "X",
+        "phase": "X",
+        "name": "X"
+    },
+    {
+        "uid": "IP",
+        "relay": "41",
+        "os": "X",
+        "type": "X",
+        "phase": "X",
+        "name": "X"
+    },
+    {
+        "uid": "IP",
+        "relay": "42",
+        "os": "X",
+        "type": "X",
+        "phase": "X",
+        "name": "X"
+    },
+    {
+        "uid": "IP",
+        "relay": "43",
+        "os": "X",
+        "type": "X",
+        "phase": "X",
+        "name": "X"
+    },
+    {
+        "uid": "IP",
+        "relay": "44",
+        "os": "X",
+        "type": "X",
+        "phase": "X",
+        "name": "X"
+    },
+    {
+        "uid": "IP",
+        "relay": "45",
+        "os": "X",
+        "type": "X",
+        "phase": "X",
+        "name": "X"
+    },
+    {
+        "uid": "IP",
+        "relay": "46",
+        "os": "X",
+        "type": "X",
+        "phase": "X",
+        "name": "X"
+    },
+    {
+        "uid": "IP",
+        "relay": "47",
+        "os": "X",
+        "type": "X",
+        "phase": "X",
+        "name": "X"
+    },
+    {
+        "uid": "IP",
+        "relay": "48",
+        "os": "X",
+        "type": "X",
+        "phase": "X",
+        "name": "X"
+    }
+]
