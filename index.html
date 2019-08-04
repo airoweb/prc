@@ -40,22 +40,21 @@
               <md-icon class="off" ng-if="minerstatus.psu =='OFF'">offline_bolt</md-icon>
             </md-button>
           </md-card-icon-actions>
-          <md-button class="md-raised md-success" ng-click="psuRUN()" ng-if="!confirmAllon && !confirmAlloff">
+          <md-button class="md-raised md-success" ng-click="psuRUN()"  ng-if="!Emergency">
               <md-tooltip md-direction="top">Latest Status ON</md-tooltip>
             <md-icon>power_settings_new</md-icon> RUN
           </md-button>
-          <md-button class="md-raised md-accent" ng-click="psuSTOP()" ng-if="!confirmAllon && !confirmAlloff">
+          <md-button class="md-raised md-accent" ng-click="psuSTOP()"  ng-if="!Emergency">
               <md-tooltip md-direction="top">Latest Status OFF</md-tooltip>
             <md-icon>power_settings_new</md-icon> STOP
           </md-button>
-          <md-button class="md-raised md-warn" ng-click="psuALLON()" ng-if="confirmAllon">
-            <md-icon>offline_bolt</md-icon> ALL MINER ON!
-          </md-button>
-          <md-button class="md-raised md-warn" ng-click="psuALLOFF()" ng-if="confirmAlloff">
-            <md-icon>offline_bolt</md-icon> Emergency OFF!
-          </md-button>
-          <md-switch ng-model="confirmAllon"> All ON </md-switch>
-          <md-switch ng-model="confirmAlloff"> All OFF </md-switch>
+          <md-button class="md-raised md-warn" ng-click="psuALLON()" ng-if="Emergency">
+              <md-icon>offline_bolt</md-icon> ALL ON!
+            </md-button>
+            <md-button class="md-raised md-warn" ng-click="psuALLOFF()" ng-if="Emergency">
+              <md-icon>offline_bolt</md-icon> ALL OFF!
+            </md-button>
+          <md-switch ng-model="Emergency"> Emergency </md-switch>
         </md-card-actions>
       </md-card-content>
     </md-card>
