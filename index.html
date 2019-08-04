@@ -41,16 +41,18 @@
             </md-button>
           </md-card-icon-actions>
           <md-button class="md-raised md-success" ng-click="psuRUN()" ng-if="!confirmAllon && !confirmAlloff">
+              <md-tooltip md-direction="top">Latest Status ON</md-tooltip>
             <md-icon>power_settings_new</md-icon> RUN
           </md-button>
           <md-button class="md-raised md-accent" ng-click="psuSTOP()" ng-if="!confirmAllon && !confirmAlloff">
+              <md-tooltip md-direction="top">Latest Status OFF</md-tooltip>
             <md-icon>power_settings_new</md-icon> STOP
           </md-button>
           <md-button class="md-raised md-warn" ng-click="psuALLON()" ng-if="confirmAllon">
             <md-icon>offline_bolt</md-icon> ALL MINER ON!
           </md-button>
           <md-button class="md-raised md-warn" ng-click="psuALLOFF()" ng-if="confirmAlloff">
-            <md-icon>offline_bolt</md-icon> ALL MINER OFF!
+            <md-icon>offline_bolt</md-icon> Emergency OFF!
           </md-button>
           <md-switch ng-model="confirmAllon"> All ON </md-switch>
           <md-switch ng-model="confirmAlloff"> All OFF </md-switch>
@@ -124,6 +126,21 @@
     </md-card>
     </div>
     <md-card>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">
+              <md-icon class="large">access_time</md-icon> Schedule
+            </span>
+            <md-switch ng-model="Scheduleoff" ng-init="Scheduleoff = true" ng-click="scheduleEnableoff()"> Schedule Off </md-switch>
+            <md-switch ng-model="Scheduleon" ng-init="Scheduleon = true" ng-click="scheduleEnableon()"> Schedule On </md-switch>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+         <md-input-container class="md-block" md-no-float flex ng-if="Scheduleoff">OFF Time : {{scheduletime.off_h}}:{{scheduletime.off_m}} PM</md-input-container>
+         <md-input-container class="md-block" md-no-float flex ng-if="Scheduleon">ON Time : {{scheduletime.on_h}}:{{scheduletime.on_m}} PM</md-input-container>
+        </md-card-content>
+      </md-card>
+    <md-card>
       <md-card-title>
         <md-card-title-text>
           <span class="md-headline">
@@ -133,7 +150,6 @@
         </md-card-title-text>
       </md-card-title>
       <md-card-content>
-             
         <md-input-container class="md-block" md-no-float flex>
           <span>Arduino</span>
            {{espip}} 
