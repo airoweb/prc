@@ -190,6 +190,14 @@
         </md-select>
       </md-input-container>
       <md-input-container class="md-block" flex>
+          <label>Phase Type</label>
+          <md-select name="phase" ng-model="filterItem.phase">
+            <md-option value="R">R</md-option>
+            <md-option value="S">S</md-option>
+            <md-option value="T">T</md-option>
+          </md-select>
+        </md-input-container>
+      <md-input-container class="md-block" flex>
         <label>OS Type</label>
         <md-select name="os" ng-model="filterItem.os">
           <md-option value="A">Antminer</md-option>

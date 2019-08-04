@@ -105,6 +105,9 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
         if ($scope.filterItem.os === data.os) {
           return true;
         }
+        if ($scope.filterItem.phase === data.phase) {
+          return true;
+        }
         else {
           return false;
         }
