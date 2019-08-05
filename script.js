@@ -142,6 +142,16 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
       $scope.hide = function () {
         $mdDialog.hide();
       };
+      // get device stats from antmonitor api
+      $http.get('http://localhost:5000/192.168.1.'+ $scope.device.uid +'/stats', { cache: false }).then(function (data) {
+        $rootScope.stats = data.data;
+        $scope.fan1 = $rootScope.stats.STATS[1].fan5;
+        $scope.fan2 = $rootScope.stats.STATS[1].fan6;
+        $scope.temp1 = Math.max($rootScope.stats.STATS[1].temp6 , $rootScope.stats.STATS[1].temp7 , $rootScope.stats.STATS[1].temp8)
+        $scope.temp2 = Math.max($rootScope.stats.STATS[1].temp2_6 , $rootScope.stats.STATS[1].temp2_7 , $rootScope.stats.STATS[1].temp2_8);
+        $scope.th5 = Number($rootScope.stats.STATS[1]["GHS 5s"]/1000).toFixed(2);
+        $scope.thav = Number($rootScope.stats.STATS[1]["GHS av"]/1000).toFixed(2);
+      });
 
       $scope.relayON = function (relay) {
         $http.get($rootScope.espip + 'RELAYON_' + relay).then(function (response) {

@@ -155,3 +155,12 @@ md-grid-list {
     right: 0px;
     top: 8px;
  }
+ md-list-item .md-list-item-inner>md-icon:first-child:not(.md-avatar-icon), md-list-item>md-icon:first-child:not(.md-avatar-icon) {
+    margin-right: 15px;
+ }
+ .second {
+    text-align: right;
+ }
+ .secondico {
+     margin-left: 15px;
+ }
