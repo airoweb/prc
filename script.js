@@ -146,7 +146,6 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
       // $http.get('stats.json', { cache: false }).then(function (data) {
         $http.get('http://localhost:5000/192.168.1.'+ $scope.device.uid +'/stats', { cache: false }).then(function (data) {
         $scope.stats = data.data[0];
-        console.log($scope.stats);
         $scope.fan1 = $scope.stats.STATS[1].fan5;
         $scope.fan2 = $scope.stats.STATS[1].fan6;
         $scope.temp1 = Math.max($scope.stats.STATS[1].temp6 , $scope.stats.STATS[1].temp7 , $scope.stats.STATS[1].temp8)
@@ -154,7 +153,6 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
         $scope.th5 = Number($scope.stats.STATS[1]["GHS 5s"]/1000).toFixed(2);
         $scope.thav = Number($scope.stats.STATS[1]["GHS av"]/1000).toFixed(2);
       });
-
 
       $scope.relayON = function (relay) {
         $http.get($rootScope.espip + 'RELAYON_' + relay).then(function (response) {
