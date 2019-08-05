@@ -143,8 +143,8 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
         $mdDialog.hide();
       };
       // get device stats from antmonitor api
-      $http.get('stats.json', { cache: false }).then(function (data) {
-        // $http.get('http://localhost:5000/192.168.1.'+ $scope.device.uid +'/stats', { cache: false }).then(function (data) {
+      // $http.get('stats.json', { cache: false }).then(function (data) {
+        $http.get('http://localhost:5000/192.168.1.'+ $scope.device.uid +'/stats', { cache: false }).then(function (data) {
         $scope.stats = data.data[0];
         console.log($scope.stats);
         $scope.fan1 = $scope.stats.STATS[1].fan5;
