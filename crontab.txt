@@ -1,6 +1,49 @@
-30 22 * * * cp /root/cgminer.conf.midnight /etc/cgminer.conf && /etc/init.d/cgminer reload
-30 08 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload
-30 11 * * * cp /root/cgminer.conf.low /etc/cgminer.conf && /etc/init.d/cgminer reload
-30 13 * * * /etc/init.d/cgminer stop
-30 18 * * * /etc/init.d/cgminer start
-30 20 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload
+======== 101-105-109 | 123-121-113 =========
+0 0 * * * /usr/sbin/bos_update.sh 2>&1 | logger -t update
+00 06 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload
+00 11 * * * cp /root/cgminer.conf.low /etc/cgminer.conf && /etc/init.d/cgminer reload
+00 13 * * * /etc/init.d/cgminer stop
+00 14 * * * /etc/init.d/cgminer stop
+00 17 * * * /etc/init.d/cgminer stop
+00 18 * * * /etc/init.d/cgminer stop
+00 19 * * * /etc/init.d/cgminer start
+00 21 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload
+00 23 * * * cp /root/cgminer.conf.high /etc/cgminer.conf && /etc/init.d/cgminer reload
+
+======== 102-106-112 | 124-122-114 =========
+0 0 * * * /usr/sbin/bos_update.sh 2>&1 | logger -t update
+01 06 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload
+01 11 * * * cp /root/cgminer.conf.low /etc/cgminer.conf && /etc/init.d/cgminer reload
+01 13 * * * /etc/init.d/cgminer stop
+01 14 * * * /etc/init.d/cgminer stop
+01 17 * * * /etc/init.d/cgminer stop
+01 18 * * * /etc/init.d/cgminer stop
+01 19 * * * /etc/init.d/cgminer start
+01 21 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload
+01 23 * * * cp /root/cgminer.conf.high /etc/cgminer.conf && /etc/init.d/cgminer reload
+
+
+======== 103-107-111 | 130 =========
+0 0 * * * /usr/sbin/bos_update.sh 2>&1 | logger -t update
+02 06 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload
+02 11 * * * cp /root/cgminer.conf.low /etc/cgminer.conf && /etc/init.d/cgminer reload
+02 13 * * * /etc/init.d/cgminer stop
+02 14 * * * /etc/init.d/cgminer stop
+02 17 * * * /etc/init.d/cgminer stop
+02 18 * * * /etc/init.d/cgminer stop
+02 19 * * * /etc/init.d/cgminer start
+02 21 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload
+02 23 * * * cp /root/cgminer.conf.high /etc/cgminer.conf && /etc/init.d/cgminer reload
+
+
+======== 104-108-110 | 131 =========
+0 0 * * * /usr/sbin/bos_update.sh 2>&1 | logger -t update
+03 06 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload
+03 11 * * * cp /root/cgminer.conf.low /etc/cgminer.conf && /etc/init.d/cgminer reload
+03 13 * * * /etc/init.d/cgminer stop
+03 14 * * * /etc/init.d/cgminer stop
+03 17 * * * /etc/init.d/cgminer stop
+03 18 * * * /etc/init.d/cgminer stop
+03 19 * * * /etc/init.d/cgminer start
+03 21 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload
+03 23 * * * cp /root/cgminer.conf.high /etc/cgminer.conf && /etc/init.d/cgminer reload
