@@ -143,13 +143,21 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
         $mdDialog.hide();
       };
       // get device stats from antmonitor api
-      // $http.get('stats.json', { cache: false }).then(function (data) {
-        $http.get('http://localhost:5000/192.168.1.'+ $scope.device.uid +'/stats', { cache: false }).then(function (data) {
-        $scope.stats = data.data[0];
-        $scope.fan1 = $scope.stats.STATS[1].fan5;
-        $scope.fan2 = $scope.stats.STATS[1].fan6;
-        $scope.temp1 = Math.max($scope.stats.STATS[1].temp6 , $scope.stats.STATS[1].temp7 , $scope.stats.STATS[1].temp8)
-        $scope.temp2 = Math.max($scope.stats.STATS[1].temp2_6 , $scope.stats.STATS[1].temp2_7 , $scope.stats.STATS[1].temp2_8);
+      $http.get('stats.json', { cache: false }).then(function (data) {
+        // $http.get('http://localhost:5000/192.168.1.'+ $scope.device.uid +'/stats', { cache: false }).then(function (data) {
+        $scope.stats = data.data;
+        if ($scope.STATS[0].Type == "Antminer S11") {
+          $scope.fan1 = $scope.stats.STATS[1].fan1;
+          $scope.fan2 = $scope.stats.STATS[1].fan2;
+          $scope.temp1 = Math.max($scope.stats.STATS[1].temp3_1 , $scope.stats.STATS[1].temp3_2 , $scope.stats.STATS[1].temp3_3)
+          $scope.temp2 = Math.max($scope.stats.STATS[1].temp2_1 , $scope.stats.STATS[1].temp2_2 , $scope.stats.STATS[1].temp2_3);
+        }
+        else {
+          $scope.fan1 = $scope.stats.STATS[1].fan5;
+          $scope.fan2 = $scope.stats.STATS[1].fan6;
+          $scope.temp1 = Math.max($scope.stats.STATS[1].temp6 , $scope.stats.STATS[1].temp7 , $scope.stats.STATS[1].temp8)
+          $scope.temp2 = Math.max($scope.stats.STATS[1].temp2_6 , $scope.stats.STATS[1].temp2_7 , $scope.stats.STATS[1].temp2_8);
+        }
         $scope.th5 = Number($scope.stats.STATS[1]["GHS 5s"]/1000).toFixed(2);
         $scope.thav = Number($scope.stats.STATS[1]["GHS av"]/1000).toFixed(2);
       });
