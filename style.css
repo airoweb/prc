@@ -63,6 +63,17 @@ md-grid-list md-grid-tile figure {
     background: #8d0000;
     color: #ffffff;
 }
+.VB{
+    color: #ffffff;
+    background: #00bbd4;
+background: -moz-linear-gradient(-45deg, #00bbd4 0%, #00bbd4 50%, #424242 51%, #424242 71%, #424242 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, #00bbd4), color-stop(50%, #00bbd4), color-stop(51%, #424242), color-stop(71%, #424242), color-stop(100%, #424242));
+background: -webkit-linear-gradient(-45deg, #00bbd4 0%, #00bbd4 50%, #424242 51%, #424242 71%, #424242 100%);
+background: -o-linear-gradient(-45deg, #00bbd4 0%, #00bbd4 50%, #424242 51%, #424242 71%, #424242 100%);
+background: -ms-linear-gradient(-45deg, #00bbd4 0%, #00bbd4 50%, #424242 51%, #424242 71%, #424242 100%);
+background: linear-gradient(135deg, #00bbd4 0%, #00bbd4 50%, #424242 51%, #424242 71%, #424242 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bbd4', endColorstr='#424242', GradientType=1 );
+}
 .X {
     background: #d6d6d6;
     color: #eeeeee;
