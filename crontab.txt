@@ -40,10 +40,5 @@
 0 0 * * * /usr/sbin/bos_update.sh 2>&1 | logger -t update
 03 06 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload
 03 11 * * * cp /root/cgminer.conf.low /etc/cgminer.conf && /etc/init.d/cgminer reload
-03 13 * * * /etc/init.d/cgminer stop
-03 14 * * * /etc/init.d/cgminer stop
-03 17 * * * /etc/init.d/cgminer stop
-03 18 * * * /etc/init.d/cgminer stop
-03 19 * * * /etc/init.d/cgminer start
 03 21 * * * cp /root/cgminer.conf.normal /etc/cgminer.conf && /etc/init.d/cgminer reload
 03 23 * * * cp /root/cgminer.conf.high /etc/cgminer.conf && /etc/init.d/cgminer reload
