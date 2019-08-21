@@ -96,7 +96,7 @@
         "name": "Behzad"
     },
     {
-        "uid": 115,
+        "uid": 113,
         "relay": "13",
         "os": "B-sd",
         "type": "s9i",
@@ -104,7 +104,7 @@
         "name": "Vahid"
     },
     {
-        "uid": 116,
+        "uid": 114,
         "relay": "14",
         "os": "B-sd",
         "type": "s9i",
@@ -112,7 +112,7 @@
         "name": "Vahid"
     },
     {
-        "uid": 123,
+        "uid": 115,
         "relay": "15",
         "os": "B",
         "type": "s9j",
@@ -120,7 +120,7 @@
         "name": "Amir"
     },
     {
-        "uid": "IP",
+        "uid": 116,
         "relay": "16",
         "os": "B",
         "type": "s9j",
@@ -128,7 +128,7 @@
         "name": "X"
     },
     {
-        "uid": 117,
+        "uid": 125,
         "relay": "17",
         "os": "A",
         "type": "s11",
@@ -136,7 +136,7 @@
         "name": "Amir"
     },
     {
-        "uid": 124,
+        "uid": 126,
         "relay": "18",
         "os": "B",
         "type": "s9j",
