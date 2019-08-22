@@ -27,6 +27,9 @@ md-grid-list md-grid-tile figure {
 .off {
     color: rgb(235, 0, 0) !important;
 }
+.invalid {
+    color: rgba(0,0,0,0.54) !important;
+}
 .large {
     font-size: 32px;
     height: 35px;
@@ -81,6 +84,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bbd4', end
 }
 md-grid-list {
     margin-top: 8px;
+}
+.time {
+    font-size: 17px;
 }
 .md-type {
     background-color:#000;

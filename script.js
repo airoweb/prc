@@ -18,10 +18,10 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
 
   .controller('minerstatusController', ['$scope', '$rootScope', '$http', function ($scope, $rootScope, $http) {
     $scope.psuStatus = function () {
-      // $http.get('psustatus.json', { cache: false }).then(function (data) {
-        $http.get($rootScope.espip + 'PSU_STATUS', { cache: false }).then(function (data) {
+      $http.get('psustatus.json', { cache: false }).then(function (data) {
+        // $http.get($rootScope.espip + 'PSU_STATUS', { cache: false }).then(function (data) {
         $scope.minerstatus = data.data;
-        // $window.location.reload();
+        $scope.lastcheck = Date.now();
       });
     }
     // run commands
@@ -88,6 +88,7 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
     $scope.isLoading = true;
     $http.get('https://raw.githubusercontent.com/3ehzad/prc/master/devicelist.json?_=' + Date.now(), { cache: false }).then(function (data) {
       $scope.devicelist = data.data;
+      // $rootScope.minerlist = $scope.devicelist;
       $scope.isLoading = false;
       var str = JSON.stringify($scope.devicelist)
       $scope.rCount = (str.match(/\"R\"/g) || []).length;
@@ -143,23 +144,23 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
         $mdDialog.hide();
       };
       // get device stats from antmonitor api
-      $http.get('stats.json', { cache: false }).then(function (data) {
-        // $http.get('http://localhost:5000/192.168.1.'+ $scope.device.uid +'/stats', { cache: false }).then(function (data) {
+      // $http.get('stats.json', { cache: false }).then(function (data) {
+      $http.get('http://localhost:5000/192.168.1.' + $scope.device.uid + '/stats', { cache: false }).then(function (data) {
         $scope.stats = data.data;
-        if ($scope.STATS[0].Type == "Antminer S11") {
+        if ($scope.stats.STATS[0].Type == "Antminer S11") {
           $scope.fan1 = $scope.stats.STATS[1].fan1;
           $scope.fan2 = $scope.stats.STATS[1].fan2;
-          $scope.temp1 = Math.max($scope.stats.STATS[1].temp3_1 , $scope.stats.STATS[1].temp3_2 , $scope.stats.STATS[1].temp3_3)
-          $scope.temp2 = Math.max($scope.stats.STATS[1].temp2_1 , $scope.stats.STATS[1].temp2_2 , $scope.stats.STATS[1].temp2_3);
+          $scope.temp1 = Math.max($scope.stats.STATS[1].temp3_1, $scope.stats.STATS[1].temp3_2, $scope.stats.STATS[1].temp3_3)
+          $scope.temp2 = Math.max($scope.stats.STATS[1].temp2_1, $scope.stats.STATS[1].temp2_2, $scope.stats.STATS[1].temp2_3);
         }
         else {
           $scope.fan1 = $scope.stats.STATS[1].fan5;
           $scope.fan2 = $scope.stats.STATS[1].fan6;
-          $scope.temp1 = Math.max($scope.stats.STATS[1].temp6 , $scope.stats.STATS[1].temp7 , $scope.stats.STATS[1].temp8)
-          $scope.temp2 = Math.max($scope.stats.STATS[1].temp2_6 , $scope.stats.STATS[1].temp2_7 , $scope.stats.STATS[1].temp2_8);
+          $scope.temp1 = Math.max($scope.stats.STATS[1].temp6, $scope.stats.STATS[1].temp7, $scope.stats.STATS[1].temp8)
+          $scope.temp2 = Math.max($scope.stats.STATS[1].temp2_6, $scope.stats.STATS[1].temp2_7, $scope.stats.STATS[1].temp2_8);
         }
-        $scope.th5 = Number($scope.stats.STATS[1]["GHS 5s"]/1000).toFixed(2);
-        $scope.thav = Number($scope.stats.STATS[1]["GHS av"]/1000).toFixed(2);
+        $scope.th5 = Number($scope.stats.STATS[1]["GHS 5s"] / 1000).toFixed(2);
+        $scope.thav = Number($scope.stats.STATS[1]["GHS av"] / 1000).toFixed(2);
       });
 
       $scope.relayON = function (relay) {
@@ -178,4 +179,35 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
       };
     }
     /* end dialog */
+    $scope.getTemp = function () {
+      for (var i = 0; i < $scope.devicelist.length; i++) {
+        if ($scope.devicelist[i].uid == "IP" || $scope.devicelist[i].uid == "IP*" || $scope.devicelist[i].uid == 129) {
+          $scope.ipvalid = "invalid";
+        } else {
+          $http.get('http://localhost:5000/192.168.1.' + $scope.devicelist[i].uid + '/stats', { cache: false }).then(function (data) {
+            $scope.stats = data.data;
+            if ($scope.stats.STATS[0].Type == "Antminer S11") {
+              $scope.temprature = Math.max($scope.stats.STATS[1].temp3_1, $scope.stats.STATS[1].temp3_2, $scope.stats.STATS[1].temp3_3);
+              // console.log($scope.temprature);
+              if ($scope.temprature >= 80) {
+                console.log($scope.stats.IP)
+                $scope.temp = "high";
+              } else {
+                $scope.mode = "normal";
+              }
+            }
+            else if ($scope.stats.STATS[0].Type == "braiins-am1-s9") {
+              $scope.temprature = Math.max($scope.stats.STATS[1].temp2_6, $scope.stats.STATS[1].temp2_7, $scope.stats.STATS[1].temp2_8);
+              // console.log($scope.temprature);
+              if ($scope.temprature >= 80) {
+                console.log($scope.stats.IP)
+                $scope.temp = "high";
+              } else {
+                $scope.mode = "normal";
+              }
+            }
+          });
+        }
+      }
+    }
   }])

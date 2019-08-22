@@ -28,7 +28,7 @@
               <md-button class="md-icon-button md-raised md-accent" ng-click="psuStatus()">
                   <md-tooltip md-direction="top">Check Status</md-tooltip>
                   <md-icon>network_check</md-icon>
-                </md-button> Main Power
+                </md-button> Main Power <span class="time">{{ lastcheck | date : "h:mm a" }}</span>
           </span>
         </md-card-title-text>
       </md-card-title>
@@ -206,20 +206,27 @@
           <md-option value="AV">Avalon OS</md-option>
         </md-select>
       </md-input-container>
+      <div layout="row">
       <md-input-container class="md-block" flex>
         <md-button class="md-raised md-primary" ng-click="clearFilter();"> Clear </md-button>
         <md-button class="md-raised md-accent" ng-click="relayStatus()">
-          <md-icon>network_check</md-icon> Check Status
+          <md-icon>network_check</md-icon> Check PSU
+        </md-button>
+        <md-button class="md-raised md-warn" ng-click="getTemp()">
+          <md-icon>network_check</md-icon> Check Temp
         </md-button>
       </md-input-container>
+    </div>
     </md-content>
     <md-grid-list md-cols-xs="2" md-cols-sm="3" md-cols-md="6" md-cols-gt-md="12" md-row-height-gt-md="1:1"
       md-row-height="2:2" md-gutter="12px" md-gutter-gt-sm="8px">
       <md-grid-tile class="{{per.name}}" ng-repeat="per in devicelist | filter:searchText | filter:customFilter"
         ng-click="relaySwitch($event, $index);">
-        <span class="md-os">{{per.os}}</span>
-        <span class="md-type">{{per.type}}</span>
-        <h1>{{per.uid}}</h1><span> ᛫ {{per.relay}} ᛫ {{per.phase}}</span>
+        <span class="md-os">{{per.os}}:{{per.type}}</span>
+        <span class="md-type">{{per.relay}}:{{per.phase}}</span>
+        <h1>{{per.uid}}</h1> <span><md-icon ng-if="temp == 'high'" class="md-warn">warning</md-icon>
+          <md-icon ng-if="mode == 'normal'" class="on">check_circle</md-icon><md-icon ng-if="ipvalid == 'invalid'" class="invalid">signal_wifi_off</md-icon>
+        </span>
         <md-grid-tile-footer>
           <h3>
             <md-icon ng-class="relaystatus.relay_{{per.relay}}">offline_bolt</md-icon> {{per.name}}
