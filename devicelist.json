@@ -144,20 +144,20 @@
         "name": "Vahid"
     },
     {
-        "uid": "IP*",
+        "uid": 140,
         "relay": "19",
         "os": "B-sd",
         "type": "s9j",
         "phase": "S",
-        "name": "Hamid"
+        "name": "Behzad"
     },
     {
-        "uid": 132,
+        "uid": 141,
         "relay": "20",
-        "os": "B-sd",
+        "os": "B",
         "type": "s9i",
         "phase": "S",
-        "name": "VB"
+        "name": "Behzad"
     },
     {
         "uid": 121,
@@ -352,20 +352,20 @@
         "name": "X"
     },
     {
-        "uid": "IP",
+        "uid": "IP*",
         "relay": "45",
-        "os": "X",
-        "type": "X",
-        "phase": "X",
-        "name": "X"
+        "os": "b-sd",
+        "type": "s9j",
+        "phase": "T",
+        "name": "Hamid"
     },
     {
-        "uid": "IP",
+        "uid": 132,
         "relay": "46",
-        "os": "X",
-        "type": "X",
-        "phase": "X",
-        "name": "X"
+        "os": "B-SD",
+        "type": "s9i",
+        "phase": "T",
+        "name": "VB"
     },
     {
         "uid": "IP",
