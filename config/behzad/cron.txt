@@ -1,5 +1,5 @@
 0 0 * * * /usr/sbin/bos_update.sh 2>&1 | logger -t update
-13 02 * * * cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/behzad/cron.txt && cp /etc/crontabs/root && /etc/init.d/cron restart
+18 02 * * * cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/behzad/cron.txt && cp /etc/crontabs/root && /etc/init.d/cron restart
 30 23 * * * cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/behzad/cgminer.conf.overclock && cp /root/cgminer.conf /etc/cgminer.conf && /etc/init.d/cgminer reload
 30 06 * * * cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/behzad/cgminer.conf.normal && cp /root/cgminer.conf /etc/cgminer.conf && /etc/init.d/cgminer reload
 00 12 * * * cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/behzad/cgminer.conf.low && cp /root/cgminer.conf /etc/cgminer.conf && /etc/init.d/cgminer reload
