@@ -200,7 +200,7 @@ gulp.task('cbehzad_sub1', function () {
             gulp.src([
                   'config/cron.txt'
             ])
-                  .pipe(replace('#user', b_user))
+                  .pipe(replace('#user', b_user + '/' + b_subuser1))
                   .pipe(replace('#cmin', cmin_1))
                   .pipe(replace('#chour', chour_1))
                   .pipe(replace('#nmin', nmin_1))
@@ -265,7 +265,7 @@ gulp.task('cbehzad_sub2', function () {
             gulp.src([
                   'config/cron.txt'
             ])
-                  .pipe(replace('#user', b_user))
+                  .pipe(replace('#user', b_user + '/' + b_subuser2))
                   .pipe(replace('#cmin', cmin_1))
                   .pipe(replace('#chour', chour_1))
                   .pipe(replace('#nmin', nmin_1))
@@ -396,7 +396,7 @@ gulp.task('creza_sub1', function () {
             gulp.src([
                   'config/cron.txt'
             ])
-                  .pipe(replace('#user', r_user))
+                  .pipe(replace('#user', r_user + '/' + r_subuser1))
                   .pipe(replace('#cmin', cmin_2))
                   .pipe(replace('#chour', chour_2))
                   .pipe(replace('#nmin', nmin_2))
@@ -593,7 +593,7 @@ gulp.task('chamid_sub1', function () {
             gulp.src([
                   'config/cron.txt'
             ])
-                  .pipe(replace('#user', h_user))
+                  .pipe(replace('#user', h_user + '/' + h_subuser1))
                   .pipe(replace('#cmin', cmin_2))
                   .pipe(replace('#chour', chour_2))
                   .pipe(replace('#nmin', nmin_2))
