@@ -56,31 +56,37 @@ var a_ips = [123, 124];
 // Cron balance time
 // 1st
 var cmin_1 = 00;
-var chour_1 = 00;
-var nmin_1 = 00;
-var nhour_1 = 00;
-var dmin_1 = 00;
-var dhour_1 = 00;
-var omin_1 = 00;
-var ohour_1 = 00;
+var chour_1 = 23;
+var nmin_1 = 59;
+var nhour_1 = 07;
+var n2min_1 = 59;
+var n2hour_1 = 17;
+var dmin_1 = 59;
+var dhour_1 = 11;
+var omin_1 = 05;
+var ohour_1 = 02;
 // 2nd
 var cmin_2 = 00;
-var chour_2 = 00;
+var chour_2 = 23;
 var nmin_2 = 00;
-var nhour_2 = 00;
+var nhour_2 = 08;
+var n2min_2 = 00;
+var n2hour_2 = 18;
 var dmin_2 = 00;
-var dhour_2 = 00;
-var omin_2 = 00;
-var ohour_2 = 00;
+var dhour_2 = 12;
+var omin_2 = 10;
+var ohour_2 = 02;
 // 3rd
 var cmin_3 = 00;
-var chour_3 = 00;
-var nmin_3 = 00;
-var nhour_3 = 00;
-var dmin_3 = 00;
-var dhour_3 = 00;
-var omin_3 = 00;
-var ohour_3 = 00;
+var chour_3 = 23;
+var nmin_3 = 01;
+var nhour_3 = 08;
+var n2min_2 = 01;
+var n2hour_2 = 18;
+var dmin_3 = 01;
+var dhour_3 = 12;
+var omin_3 = 15;
+var ohour_3 = 02;
 
 // Behzad Start
 gulp.task('obehzad', function () {
@@ -135,6 +141,8 @@ gulp.task('cbehzad', function () {
                   .pipe(replace('#chour', chour_1))
                   .pipe(replace('#nmin', nmin_1))
                   .pipe(replace('#nhour', nhour_1))
+                  .pipe(replace('#n2min', n2min_1))
+                  .pipe(replace('#n2hour', n2hour_1))
                   .pipe(replace('#omin', omin_1))
                   .pipe(replace('#ohour', ohour_1))
                   .pipe(replace('#dmin', dmin_1))
@@ -197,6 +205,8 @@ gulp.task('cbehzad_sub1', function () {
                   .pipe(replace('#chour', chour_1))
                   .pipe(replace('#nmin', nmin_1))
                   .pipe(replace('#nhour', nhour_1))
+                  .pipe(replace('#n2min', n2min_1))
+                  .pipe(replace('#n2hour', n2hour_1))
                   .pipe(replace('#omin', omin_1))
                   .pipe(replace('#ohour', ohour_1))
                   .pipe(replace('#dmin', dmin_1))
@@ -260,6 +270,8 @@ gulp.task('cbehzad_sub2', function () {
                   .pipe(replace('#chour', chour_1))
                   .pipe(replace('#nmin', nmin_1))
                   .pipe(replace('#nhour', nhour_1))
+                  .pipe(replace('#n2min', n2min_1))
+                  .pipe(replace('#n2hour', n2hour_1))
                   .pipe(replace('#omin', omin_1))
                   .pipe(replace('#ohour', ohour_1))
                   .pipe(replace('#dmin', dmin_1))
@@ -325,6 +337,8 @@ gulp.task('creza', function () {
                   .pipe(replace('#chour', chour_2))
                   .pipe(replace('#nmin', nmin_2))
                   .pipe(replace('#nhour', nhour_2))
+                  .pipe(replace('#n2min', n2min_2))
+                  .pipe(replace('#n2hour', n2hour_2))
                   .pipe(replace('#omin', omin_2))
                   .pipe(replace('#ohour', ohour_2))
                   .pipe(replace('#dmin', dmin_2))
@@ -387,6 +401,8 @@ gulp.task('creza_sub1', function () {
                   .pipe(replace('#chour', chour_2))
                   .pipe(replace('#nmin', nmin_2))
                   .pipe(replace('#nhour', nhour_2))
+                  .pipe(replace('#n2min', n2min_2))
+                  .pipe(replace('#n2hour', n2hour_2))
                   .pipe(replace('#omin', omin_2))
                   .pipe(replace('#ohour', ohour_2))
                   .pipe(replace('#dmin', dmin_2))
@@ -452,6 +468,8 @@ gulp.task('cvahid', function () {
                   .pipe(replace('#chour', chour_3))
                   .pipe(replace('#nmin', nmin_3))
                   .pipe(replace('#nhour', nhour_3))
+                  .pipe(replace('#n2min', n2min_3))
+                  .pipe(replace('#n2hour', n2hour_3))
                   .pipe(replace('#omin', omin_3))
                   .pipe(replace('#ohour', ohour_3))
                   .pipe(replace('#dmin', dmin_3))
@@ -516,6 +534,8 @@ gulp.task('chamid', function () {
                   .pipe(replace('#chour', chour_3))
                   .pipe(replace('#nmin', nmin_3))
                   .pipe(replace('#nhour', nhour_3))
+                  .pipe(replace('#n2min', n2min_3))
+                  .pipe(replace('#n2hour', n2hour_3))
                   .pipe(replace('#omin', omin_3))
                   .pipe(replace('#ohour', ohour_3))
                   .pipe(replace('#dmin', dmin_3))
@@ -578,6 +598,8 @@ gulp.task('chamid_sub1', function () {
                   .pipe(replace('#chour', chour_2))
                   .pipe(replace('#nmin', nmin_2))
                   .pipe(replace('#nhour', nhour_2))
+                  .pipe(replace('#n2min', n2min_2))
+                  .pipe(replace('#n2hour', n2hour_2))
                   .pipe(replace('#omin', omin_2))
                   .pipe(replace('#ohour', ohour_2))
                   .pipe(replace('#dmin', dmin_2))
@@ -643,6 +665,8 @@ gulp.task('camir', function () {
                   .pipe(replace('#chour', chour_3))
                   .pipe(replace('#nmin', nmin_3))
                   .pipe(replace('#nhour', nhour_3))
+                  .pipe(replace('#n2min', n2min_3))
+                  .pipe(replace('#n2hour', n2hour_3))
                   .pipe(replace('#omin', omin_3))
                   .pipe(replace('#ohour', ohour_3))
                   .pipe(replace('#dmin', dmin_3))
