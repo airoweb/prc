@@ -2,4 +2,4 @@
 #omin #ohour * * * cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/#user/cgminer.conf.overclock && cp /root/cgminer.conf.overclock /etc/cgminer.conf && /etc/init.d/cgminer reload
 #nmin #nhour * * * cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/#user/cgminer.conf.#ip && cp /root/cgminer.conf.#ip /etc/cgminer.conf && /etc/init.d/cgminer reload
 #dmin #dhour * * * cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/#user/cgminer.conf.low && cp /root/cgminer.conf.low /etc/cgminer.conf && /etc/init.d/cgminer reload
-#nmin #nhour * * * cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/#user/cgminer.conf.#ip && cp /root/cgminer.conf.#ip /etc/cgminer.conf && /etc/init.d/cgminer reload
+#n2min #n2hour * * * cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/#user/cgminer.conf.#ip && cp /root/cgminer.conf.#ip /etc/cgminer.conf && /etc/init.d/cgminer reload
