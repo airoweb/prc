@@ -64,35 +64,35 @@ var nhour_1 = 07;
 var n2min_1 = 59;
 var n2hour_1 = 17;
 var dmin_1 = 59;
-var dhour_1 = 11;
-var omin_1 = 05;
-var ohour_1 = 02;
+var dhour_1 = 13;
+var omin_1 = 29;
+var ohour_1 = 23;
 // 2nd
 var cmin_2 = 00;
 var chour_2 = 23;
-var c2min_2 = 01;
+var c2min_2 = 00;
 var c2hour_2 = 11;
 var nmin_2 = 00;
 var nhour_2 = 08;
 var n2min_2 = 00;
 var n2hour_2 = 18;
 var dmin_2 = 00;
-var dhour_2 = 12;
-var omin_2 = 10;
-var ohour_2 = 02;
+var dhour_2 = 14;
+var omin_2 = 30;
+var ohour_2 = 23;
 // 3rd
 var cmin_3 = 00;
 var chour_3 = 23;
-var c2min_3 = 02;
+var c2min_3 = 00;
 var c2hour_3 = 11;
 var nmin_3 = 01;
 var nhour_3 = 08;
 var n2min_3 = 01;
 var n2hour_3 = 18;
 var dmin_3 = 01;
-var dhour_3 = 12;
-var omin_3 = 15;
-var ohour_3 = 02;
+var dhour_3 = 14;
+var omin_3 = 31;
+var ohour_3 = 23;
 
 // Behzad Start
 gulp.task('obehzad', function () {
