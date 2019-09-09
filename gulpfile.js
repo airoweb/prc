@@ -57,6 +57,8 @@ var a_ips = [123, 124];
 // 1st
 var cmin_1 = 00;
 var chour_1 = 23;
+var c2min_1 = 00;
+var c2hour_1 = 11;
 var nmin_1 = 59;
 var nhour_1 = 07;
 var n2min_1 = 59;
@@ -68,6 +70,8 @@ var ohour_1 = 02;
 // 2nd
 var cmin_2 = 00;
 var chour_2 = 23;
+var c2min_2 = 01;
+var c2hour_2 = 11;
 var nmin_2 = 00;
 var nhour_2 = 08;
 var n2min_2 = 00;
@@ -79,6 +83,8 @@ var ohour_2 = 02;
 // 3rd
 var cmin_3 = 00;
 var chour_3 = 23;
+var c2min_3 = 02;
+var c2hour_3 = 11;
 var nmin_3 = 01;
 var nhour_3 = 08;
 var n2min_3 = 01;
@@ -139,6 +145,8 @@ gulp.task('cbehzad', function () {
                   .pipe(replace('#user', b_user))
                   .pipe(replace('#cmin', cmin_1))
                   .pipe(replace('#chour', chour_1))
+                  .pipe(replace('#c2min', c2min_1))
+                  .pipe(replace('#c2hour', c2hour_1))
                   .pipe(replace('#nmin', nmin_1))
                   .pipe(replace('#nhour', nhour_1))
                   .pipe(replace('#n2min', n2min_1))
@@ -203,6 +211,8 @@ gulp.task('cbehzad_sub1', function () {
                   .pipe(replace('#user', b_user + '/' + b_subuser1))
                   .pipe(replace('#cmin', cmin_1))
                   .pipe(replace('#chour', chour_1))
+                  .pipe(replace('#c2min', c2min_1))
+                  .pipe(replace('#c2hour', c2hour_1))
                   .pipe(replace('#nmin', nmin_1))
                   .pipe(replace('#nhour', nhour_1))
                   .pipe(replace('#n2min', n2min_1))
@@ -268,6 +278,8 @@ gulp.task('cbehzad_sub2', function () {
                   .pipe(replace('#user', b_user + '/' + b_subuser2))
                   .pipe(replace('#cmin', cmin_1))
                   .pipe(replace('#chour', chour_1))
+                  .pipe(replace('#c2min', c2min_1))
+                  .pipe(replace('#c2hour', c2hour_1))
                   .pipe(replace('#nmin', nmin_1))
                   .pipe(replace('#nhour', nhour_1))
                   .pipe(replace('#n2min', n2min_1))
@@ -335,6 +347,8 @@ gulp.task('creza', function () {
                   .pipe(replace('#user', r_user))
                   .pipe(replace('#cmin', cmin_2))
                   .pipe(replace('#chour', chour_2))
+                  .pipe(replace('#c2min', c2min_2))
+                  .pipe(replace('#c2hour', c2hour_2))
                   .pipe(replace('#nmin', nmin_2))
                   .pipe(replace('#nhour', nhour_2))
                   .pipe(replace('#n2min', n2min_2))
@@ -399,6 +413,8 @@ gulp.task('creza_sub1', function () {
                   .pipe(replace('#user', r_user + '/' + r_subuser1))
                   .pipe(replace('#cmin', cmin_2))
                   .pipe(replace('#chour', chour_2))
+                  .pipe(replace('#c2min', c2min_2))
+                  .pipe(replace('#c2hour', c2hour_2))
                   .pipe(replace('#nmin', nmin_2))
                   .pipe(replace('#nhour', nhour_2))
                   .pipe(replace('#n2min', n2min_2))
@@ -466,6 +482,8 @@ gulp.task('cvahid', function () {
                   .pipe(replace('#user', v_user))
                   .pipe(replace('#cmin', cmin_3))
                   .pipe(replace('#chour', chour_3))
+                  .pipe(replace('#c2min', c2min_3))
+                  .pipe(replace('#c2hour', c2hour_3))
                   .pipe(replace('#nmin', nmin_3))
                   .pipe(replace('#nhour', nhour_3))
                   .pipe(replace('#n2min', n2min_3))
@@ -532,6 +550,8 @@ gulp.task('chamid', function () {
                   .pipe(replace('#user', h_user))
                   .pipe(replace('#cmin', cmin_3))
                   .pipe(replace('#chour', chour_3))
+                  .pipe(replace('#c2min', c2min_3))
+                  .pipe(replace('#c2hour', c2hour_3))
                   .pipe(replace('#nmin', nmin_3))
                   .pipe(replace('#nhour', nhour_3))
                   .pipe(replace('#n2min', n2min_3))
@@ -596,6 +616,8 @@ gulp.task('chamid_sub1', function () {
                   .pipe(replace('#user', h_user + '/' + h_subuser1))
                   .pipe(replace('#cmin', cmin_2))
                   .pipe(replace('#chour', chour_2))
+                  .pipe(replace('#c2min', c2min_2))
+                  .pipe(replace('#c2hour', c2hour_2))
                   .pipe(replace('#nmin', nmin_2))
                   .pipe(replace('#nhour', nhour_2))
                   .pipe(replace('#n2min', n2min_2))
@@ -663,6 +685,8 @@ gulp.task('camir', function () {
                   .pipe(replace('#user', a_user))
                   .pipe(replace('#cmin', cmin_3))
                   .pipe(replace('#chour', chour_3))
+                  .pipe(replace('#c2min', c2min_3))
+                  .pipe(replace('#c2hour', c2hour_3))
                   .pipe(replace('#nmin', nmin_3))
                   .pipe(replace('#nhour', nhour_3))
                   .pipe(replace('#n2min', n2min_3))
