@@ -17,7 +17,7 @@ var dclock = 0.8
 // Behzad
 var b_user = 'behzad';
 var b_username = '3ehzad';
-var b_oclock = 1.05;
+var b_oclock = 1.1;
 var b_dclock = 0.8;
 var b_ips = [121, 122, 132, 141];
 var b_subuser1 = 'behmeh';
