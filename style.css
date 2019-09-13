@@ -184,15 +184,6 @@ md-grid-list {
  md-toast.md-error-toast-theme .md-toast-content {
     background-color:#ff0000;
 }
-#toasters {
-    position : fixed;
-    top      : 0;
-    right    : 0;
-    left     : 0;
-    z-index  : 199999;
-}
-
-#toasters > * {
-    position : static;
-    bottom   : auto;
+md-toast.md-success-toast-theme .md-toast-content {
+    background-color:#00be30;
 }

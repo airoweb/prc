@@ -18,6 +18,7 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
 
   .config(function ($mdThemingProvider) {
     $mdThemingProvider.theme('error-toast');
+    $mdThemingProvider.theme('success-toast');
   })
 
   .controller('minerstatusController', ['$scope', '$rootScope', '$http', function ($scope, $rootScope, $http) {
@@ -204,6 +205,16 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
                     .hideDelay(7000)
                 );
                 // end toast
+              } else {
+                //start toast
+                $mdToast.show(
+                  $mdToast.simple()
+                    .textContent('All S11 Devices is OK!')
+                    .position("top right")
+                    .theme('success-toast')
+                    .hideDelay(3000)
+                );
+                // end toast
               }
             }
             else if ($scope.stats.STATS[0].Type == "braiins-am1-s9") {
@@ -215,7 +226,17 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
                     .textContent($scope.stats.IP + ' is [' + $scope.temprature_s9 + '] High temprature!')
                     .position("top right")
                     .theme('error-toast')
-                    .hideDelay(70000)
+                    .hideDelay(7000)
+                );
+                // end toast
+              } else {
+                //start toast
+                $mdToast.show(
+                  $mdToast.simple()
+                    .textContent('All S9 Devices is OK!')
+                    .position("top right")
+                    .theme('success-toast')
+                    .hideDelay(30000)
                 );
                 // end toast
               }
