@@ -41,6 +41,7 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
         $scope.psuresponse = response.data;
       });
     }
+    // bug: command name check MINER_ON or MINERALL_ON
     $scope.psuALLON = function () {
       $http.get($rootScope.espip + 'MINERALL_ON').then(function (response) {
         $scope.psuresponse = response.data;
@@ -188,7 +189,7 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
         if ($scope.devicelist[i].uid == "IP" || $scope.devicelist[i].uid == "IP*" || $scope.devicelist[i].uid == 129) {
           $scope.ipvalid = "invalid";
         } else {
-          $http.get($scope.devicelist[i].uid + '/stats.json', { cache: false }).then(function (data) {
+          $http.get('http://localhost:5000/192.168.1.' + $scope.devicelist[i].uid + '/stats', { cache: false }).then(function (data) {
             $scope.stats = data.data;
             // console.log($scope.stats);
             if ($scope.stats.STATS[0].Type == "Antminer S11") {
@@ -198,9 +199,9 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
                 $mdToast.show(
                   $mdToast.simple()
                     .textContent('The' + $scope.stats.IP + 'temprature is High!' + $scope.temprature_s11 + '&#176')
-                    .position("bottom right")
+                    .position("top right")
                     .theme('error-toast')
-                    .hideDelay(3000)
+                    .hideDelay(7000)
                 );
                 // end toast
               }
@@ -212,9 +213,9 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
                 $mdToast.show(
                   $mdToast.simple()
                     .textContent($scope.stats.IP + ' temprature is [' + $scope.temprature_s9 + '] High!')
-                    .position("bottom left")
+                    .position("top right")
                     .theme('error-toast')
-                    .hideDelay(10000)
+                    .hideDelay(70000)
                 );
                 // end toast
               }
