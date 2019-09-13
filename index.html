@@ -145,7 +145,7 @@
           <span class="md-headline">
             <md-icon class="large">settings</md-icon> Information
           </span>
-          <h3 ng-controller="deviceController"> <md-icon>power_input</md-icon>R: {{rCount}} <md-icon>power_input</md-icon>S: {{sCount}} <md-icon>power_input</md-icon>T: {{tCount}}</h3>
+          <h3> <md-icon>power_input</md-icon>R: {{rCount}} <md-icon>power_input</md-icon>S: {{sCount}} <md-icon>power_input</md-icon>T: {{tCount}}</h3>
         </md-card-title-text>
       </md-card-title>
       <md-card-content>
@@ -224,9 +224,7 @@
         ng-click="relaySwitch($event, $index);">
         <span class="md-os">{{per.os}}:{{per.type}}</span>
         <span class="md-type">{{per.relay}}:{{per.phase}}</span>
-        <h1>{{per.uid}}</h1> <span><md-icon ng-if="temp == 'high'" class="md-warn">warning</md-icon>
-          <md-icon ng-if="mode == 'normal'" class="on">check_circle</md-icon><md-icon ng-if="ipvalid == 'invalid'" class="invalid">signal_wifi_off</md-icon>
-        </span>
+        <h1>{{per.uid}}</h1> 
         <md-grid-tile-footer>
           <h3>
             <md-icon ng-class="relaystatus.relay_{{per.relay}}">offline_bolt</md-icon> {{per.name}}

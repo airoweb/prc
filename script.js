@@ -16,10 +16,14 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
     });
   }])
 
+  .config(function ($mdThemingProvider) {
+    $mdThemingProvider.theme('error-toast');
+  })
+
   .controller('minerstatusController', ['$scope', '$rootScope', '$http', function ($scope, $rootScope, $http) {
     $scope.psuStatus = function () {
-      $http.get('psustatus.json', { cache: false }).then(function (data) {
-        // $http.get($rootScope.espip + 'PSU_STATUS', { cache: false }).then(function (data) {
+      // $http.get('psustatus.json', { cache: false }).then(function (data) {
+      $http.get($rootScope.espip + 'PSU_STATUS', { cache: false }).then(function (data) {
         $scope.minerstatus = data.data;
         $scope.lastcheck = Date.now();
       });
@@ -84,16 +88,16 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
     }
     // end Scheduling setting
   }])
-  .controller('deviceController', ['$scope', '$rootScope', '$http', '$mdDialog', '$window', '$location', '$timeout', function ($scope, $rootScope, $http, $mdDialog, $window, $location, $timeout) {
+  .controller('deviceController', ['$scope', '$rootScope', '$http', '$mdToast', '$mdDialog', '$window', function ($scope, $rootScope, $http, $mdToast, $mdDialog, $window) {
     $scope.isLoading = true;
     $http.get('https://raw.githubusercontent.com/3ehzad/prc/master/devicelist.json?_=' + Date.now(), { cache: false }).then(function (data) {
       $scope.devicelist = data.data;
-      // $rootScope.minerlist = $scope.devicelist;
+      $rootScope.minerlist = $scope.devicelist;
       $scope.isLoading = false;
-      var str = JSON.stringify($scope.devicelist)
-      $scope.rCount = (str.match(/\"R\"/g) || []).length;
-      $scope.sCount = (str.match(/\"S\"/g) || []).length;
-      $scope.tCount = (str.match(/\"T\"/g) || []).length;
+      var str = JSON.stringify($rootScope.minerlist)
+      $rootScope.rCount = (str.match(/\"R\"/g) || []).length;
+      $rootScope.sCount = (str.match(/\"S\"/g) || []).length;
+      $rootScope.tCount = (str.match(/\"T\"/g) || []).length;
     });
     $scope.customFilter = function (data) {
       if ($scope.filterItem !== undefined) {
@@ -184,30 +188,40 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
         if ($scope.devicelist[i].uid == "IP" || $scope.devicelist[i].uid == "IP*" || $scope.devicelist[i].uid == 129) {
           $scope.ipvalid = "invalid";
         } else {
-          $http.get('http://localhost:5000/192.168.1.' + $scope.devicelist[i].uid + '/stats', { cache: false }).then(function (data) {
+          $http.get($scope.devicelist[i].uid + '/stats.json', { cache: false }).then(function (data) {
             $scope.stats = data.data;
+            // console.log($scope.stats);
             if ($scope.stats.STATS[0].Type == "Antminer S11") {
-              $scope.temprature = Math.max($scope.stats.STATS[1].temp3_1, $scope.stats.STATS[1].temp3_2, $scope.stats.STATS[1].temp3_3);
-              // console.log($scope.temprature);
-              if ($scope.temprature >= 80) {
-                console.log($scope.stats.IP)
-                $scope.temp = "high";
-              } else {
-                $scope.mode = "normal";
+              $scope.temprature_s11 = Math.max($scope.stats.STATS[1].temp3_1, $scope.stats.STATS[1].temp3_2, $scope.stats.STATS[1].temp3_3);
+              if ($scope.temprature_s11 >= 80) {
+                //start toast
+                $mdToast.show(
+                  $mdToast.simple()
+                    .textContent('The' + $scope.stats.IP + 'temprature is High!' + $scope.temprature_s11 + '&#176')
+                    .position("bottom right")
+                    .theme('error-toast')
+                    .hideDelay(3000)
+                );
+                // end toast
               }
             }
             else if ($scope.stats.STATS[0].Type == "braiins-am1-s9") {
-              $scope.temprature = Math.max($scope.stats.STATS[1].temp2_6, $scope.stats.STATS[1].temp2_7, $scope.stats.STATS[1].temp2_8);
-              // console.log($scope.temprature);
-              if ($scope.temprature >= 80) {
-                console.log($scope.stats.IP)
-                $scope.temp = "high";
-              } else {
-                $scope.mode = "normal";
+              $scope.temprature_s9 = Math.max($scope.stats.STATS[1].temp2_6, $scope.stats.STATS[1].temp2_7, $scope.stats.STATS[1].temp2_8);
+              if ($scope.temprature_s9 >= 80) {
+                //start toast
+                $mdToast.show(
+                  $mdToast.simple()
+                    .textContent($scope.stats.IP + ' temprature is [' + $scope.temprature_s9 + '] High!')
+                    .position("bottom left")
+                    .theme('error-toast')
+                    .hideDelay(10000)
+                );
+                // end toast
               }
             }
           });
         }
       }
+
     }
   }])
