@@ -198,7 +198,7 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
                 //start toast
                 $mdToast.show(
                   $mdToast.simple()
-                    .textContent('The' + $scope.stats.IP + 'temprature is High!' + $scope.temprature_s11 + '&#176')
+                    .textContent($scope.stats.IP + ' is [' + $scope.temprature_s11 + '] High temprature!')
                     .position("top right")
                     .theme('error-toast')
                     .hideDelay(7000)
@@ -212,7 +212,7 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
                 //start toast
                 $mdToast.show(
                   $mdToast.simple()
-                    .textContent($scope.stats.IP + ' temprature is [' + $scope.temprature_s9 + '] High!')
+                    .textContent($scope.stats.IP + ' is [' + $scope.temprature_s9 + '] High temprature!')
                     .position("top right")
                     .theme('error-toast')
                     .hideDelay(70000)
