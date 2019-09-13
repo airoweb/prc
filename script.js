@@ -205,16 +205,6 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
                     .hideDelay(7000)
                 );
                 // end toast
-              } else {
-                //start toast
-                $mdToast.show(
-                  $mdToast.simple()
-                    .textContent('All S11 Devices is OK!')
-                    .position("top right")
-                    .theme('success-toast')
-                    .hideDelay(3000)
-                );
-                // end toast
               }
             }
             else if ($scope.stats.STATS[0].Type == "braiins-am1-s9") {
@@ -227,16 +217,6 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
                     .position("top right")
                     .theme('error-toast')
                     .hideDelay(7000)
-                );
-                // end toast
-              } else {
-                //start toast
-                $mdToast.show(
-                  $mdToast.simple()
-                    .textContent('All S9 Devices is OK!')
-                    .position("top right")
-                    .theme('success-toast')
-                    .hideDelay(30000)
                 );
                 // end toast
               }
