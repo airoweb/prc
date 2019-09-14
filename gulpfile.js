@@ -65,7 +65,7 @@ var n2min_1 = "59";
 var n2hour_1 = "17";
 var dmin_1 = "59";
 var dhour_1 = "12";
-var omin_1 = "35";
+var omin_1 = "01";
 var ohour_1 = "00";
 // 2nd
 var cmin_2 = "00";
@@ -78,7 +78,7 @@ var n2min_2 = "00";
 var n2hour_2 = "18";
 var dmin_2 = "00";
 var dhour_2 = "13";
-var omin_2 = "36";
+var omin_2 = "02";
 var ohour_2 = "00";
 // 3rd
 var cmin_3 = "00";
@@ -91,7 +91,7 @@ var n2min_3 = "01";
 var n2hour_3 = "18";
 var dmin_3 = "01";
 var dhour_3 = "13";
-var omin_3 = "37";
+var omin_3 = "03";
 var ohour_3 = "00";
 
 // Behzad Start
