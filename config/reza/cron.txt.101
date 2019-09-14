@@ -1,6 +1,6 @@
-00 23 * * * rm /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/reza/cron.txt.101 && cp /root/cron.txt.101 /etc/crontabs/root && /etc/init.d/cron restart
-02 00 * * * rm /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/reza/cgminer.conf.overclock && cp /root/cgminer.conf.overclock /etc/cgminer.conf && /etc/init.d/cgminer reload
-00 08 * * * rm /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/reza/cgminer.conf.101 && cp /root/cgminer.conf.101 /etc/cgminer.conf && /etc/init.d/cgminer reload
-00 11 * * * rm /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/reza/cron.txt.101 && cp /root/cron.txt.101 /etc/crontabs/root && /etc/init.d/cron restart
-00 13 * * * rm /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/reza/cgminer.conf.low && cp /root/cgminer.conf.low /etc/cgminer.conf && /etc/init.d/cgminer reload
-00 18 * * * rm /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/reza/cgminer.conf.101 && cp /root/cgminer.conf.101 /etc/cgminer.conf && /etc/init.d/cgminer reload
+00 23 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/reza/cron.txt.101 && cp /root/cron.txt.101 /etc/crontabs/root && /etc/init.d/cron restart
+02 00 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/reza/cgminer.conf.overclock && cp /root/cgminer.conf.overclock /etc/cgminer.conf && /etc/init.d/cgminer reload
+00 08 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/reza/cgminer.conf.101 && cp /root/cgminer.conf.101 /etc/cgminer.conf && /etc/init.d/cgminer reload
+00 11 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/reza/cron.txt.101 && cp /root/cron.txt.101 /etc/crontabs/root && /etc/init.d/cron restart
+00 13 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/reza/cgminer.conf.low && cp /root/cgminer.conf.low /etc/cgminer.conf && /etc/init.d/cgminer reload
+00 18 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/reza/cgminer.conf.101 && cp /root/cgminer.conf.101 /etc/cgminer.conf && /etc/init.d/cgminer reload
