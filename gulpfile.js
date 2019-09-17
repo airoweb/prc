@@ -8,6 +8,10 @@ var pooladdress1 = 'cn.stratum.slushpool.com:3333';
 var pooladdress2 = 'sg.stratum.slushpool.com:3333';
 var pooladdress3 = 'eu.stratum.slushpool.com:3333';
 
+var altpooladdress1 = 'btc.ss.poolin.com:443';
+var altpooladdress2 = 'btc.ss.poolin.com:1883';
+var altpooladdress3 = 'btc.ss.poolin.com:25';
+
 // temrature 
 var temprature = 75;
 
@@ -20,6 +24,7 @@ var b_username = '3ehzad';
 var b_oclock = 1.1;
 var b_dclock = 0.8;
 var b_ips = [121, 122, 132, 141];
+var b_ids = [101, 102, 103];
 var b_subuser1 = 'behmeh';
 var bsub1_ips = [110, 111];
 var b_subuser2 = 'beharmin';
@@ -123,22 +128,22 @@ gulp.task('dbehzad', function () {
 
 
 gulp.task('nbehzad', function () {
-      for (var i = 0; i < b_ips.length; i++) {
+      for (var i = 0; i < b_ids.length; i++) {
             gulp.src([
                   'config/cgminer.conf.normal'
             ])
-                  .pipe(replace('#pooladdress1', pooladdress1))
-                  .pipe(replace('#pooladdress2', pooladdress2))
-                  .pipe(replace('#pooladdress3', pooladdress3))
+                  .pipe(replace('#pooladdress1', altpooladdress1))
+                  .pipe(replace('#pooladdress2', altpooladdress2))
+                  .pipe(replace('#pooladdress3', altpooladdress3))
                   .pipe(replace('#temprature', temprature))
-                  .pipe(replace('#username.worker', b_username + '.' + b_ips[i]))
-                  .pipe(rename('cgminer.conf.' + b_ips[i]))
+                  .pipe(replace('#username.worker', b_username + '.' + b_ids[i]))
+                  .pipe(rename('cgminer.conf.' + b_ids[i]))
                   .pipe(gulp.dest('config/' + b_user));
       }
 });
 
 gulp.task('cbehzad', function () {
-      for (var i = 0; i < b_ips.length; i++) {
+      for (var i = 0; i < b_ids.length; i++) {
             gulp.src([
                   'config/cron.txt'
             ])
@@ -155,7 +160,7 @@ gulp.task('cbehzad', function () {
                   .pipe(replace('#ohour', ohour_1))
                   .pipe(replace('#dmin', dmin_1))
                   .pipe(replace('#dhour', dhour_1))
-                  .pipe(replace('#ip', b_ips[i]))
+                  .pipe(replace('#ip', b_ids[i]))
                   .pipe(rename('cron.txt.' + b_ips[i]))
                   .pipe(gulp.dest('config/' + b_user));
       }
