@@ -104,10 +104,10 @@ gulp.task('obehzad', function () {
       gulp.src([
             'config/cgminer.conf.overclock'
       ])
-            .pipe(replace('#username.worker', b_username + '.overclock'))
-            .pipe(replace('#pooladdress1', pooladdress1))
-            .pipe(replace('#pooladdress2', pooladdress2))
-            .pipe(replace('#pooladdress3', pooladdress3))
+            .pipe(replace('#username.worker', b_username + '.104'))
+            .pipe(replace('#pooladdress1', altpooladdress1))
+            .pipe(replace('#pooladdress2', altpooladdress2))
+            .pipe(replace('#pooladdress3', altpooladdress3))
             .pipe(replace('#temprature', temprature))
             .pipe(replace('#oclock', b_oclock))
             .pipe(gulp.dest('config/' + b_user));
@@ -117,10 +117,10 @@ gulp.task('dbehzad', function () {
       gulp.src([
             'config/cgminer.conf.low'
       ])
-            .pipe(replace('#username.worker', b_username + '.low'))
-            .pipe(replace('#pooladdress1', pooladdress1))
-            .pipe(replace('#pooladdress2', pooladdress2))
-            .pipe(replace('#pooladdress3', pooladdress3))
+            .pipe(replace('#username.worker', b_username + '.105'))
+            .pipe(replace('#pooladdress1', altpooladdress1))
+            .pipe(replace('#pooladdress2', altpooladdress2))
+            .pipe(replace('#pooladdress3', altpooladdress3))
             .pipe(replace('#temprature', temprature))
             .pipe(replace('#dclock', b_dclock))
             .pipe(gulp.dest('config/' + b_user));
@@ -161,7 +161,7 @@ gulp.task('cbehzad', function () {
                   .pipe(replace('#dmin', dmin_1))
                   .pipe(replace('#dhour', dhour_1))
                   .pipe(replace('#ip', b_ids[i]))
-                  .pipe(rename('cron.txt.' + b_ips[i]))
+                  .pipe(rename('cron.txt.' + b_ids[i]))
                   .pipe(gulp.dest('config/' + b_user));
       }
 });
