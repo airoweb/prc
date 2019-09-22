@@ -452,9 +452,9 @@ gulp.task('ovahid', function () {
             'config/cgminer.conf.overclock'
       ])
             .pipe(replace('#username.worker', v2_username + '.108'))
-            .pipe(replace('#pooladdress1', pooladdress1))
-            .pipe(replace('#pooladdress2', pooladdress2))
-            .pipe(replace('#pooladdress3', pooladdress3))
+            .pipe(replace('#pooladdress1', altpooladdress1))
+            .pipe(replace('#pooladdress2', altpooladdress2))
+            .pipe(replace('#pooladdress3', altpooladdress3))
             .pipe(replace('#temprature', temprature))
             .pipe(replace('#oclock', v_oclock))
             .pipe(gulp.dest('config/' + v_user));
@@ -465,9 +465,9 @@ gulp.task('dvahid', function () {
             'config/cgminer.conf.low'
       ])
             .pipe(replace('#username.worker', v2_username + '.107'))
-            .pipe(replace('#pooladdress1', pooladdress1))
-            .pipe(replace('#pooladdress2', pooladdress2))
-            .pipe(replace('#pooladdress3', pooladdress3))
+            .pipe(replace('#pooladdress1', altpooladdress1))
+            .pipe(replace('#pooladdress2', altpooladdress2))
+            .pipe(replace('#pooladdress3', altpooladdress3))
             .pipe(replace('#temprature', temprature))
             .pipe(replace('#dclock', v_dclock))
             .pipe(gulp.dest('config/' + v_user));
@@ -479,9 +479,9 @@ gulp.task('nvahid', function () {
             gulp.src([
                   'config/cgminer.conf.normal'
             ])
-                  .pipe(replace('#pooladdress1', pooladdress1))
-                  .pipe(replace('#pooladdress2', pooladdress2))
-                  .pipe(replace('#pooladdress3', pooladdress3))
+                  .pipe(replace('#pooladdress1', altpooladdress1))
+                  .pipe(replace('#pooladdress2', altpooladdress2))
+                  .pipe(replace('#pooladdress3', altpooladdress3))
                   .pipe(replace('#temprature', temprature))
                   .pipe(replace('#username.worker', v2_username + '.' + v_ids[i]))
                   .pipe(rename('cgminer.conf.' + v_ids[i]))
