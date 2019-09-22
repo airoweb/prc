@@ -2,15 +2,23 @@ var gulp = require('gulp');
 var replace = require('gulp-replace');
 var rename = require("gulp-rename");
 
-
-// pool address
+// slushpool address
 var pooladdress1 = 'cn.stratum.slushpool.com:3333';
 var pooladdress2 = 'sg.stratum.slushpool.com:3333';
 var pooladdress3 = 'eu.stratum.slushpool.com:3333';
-
+// poolin address
 var altpooladdress1 = 'btc.ss.poolin.com:443';
 var altpooladdress2 = 'btc.ss.poolin.com:1883';
 var altpooladdress3 = 'btc.ss.poolin.com:25';
+
+// conditions
+// va method = "loadbalance";
+// if (method == "loadbalance") {
+//       var pooladdress1 = 'cn.stratum.slushpool.com:3333';
+//       var pooladdress2 = 'btc.ss.poolin.com:443';
+//       var q1 = 50;
+//       var q2 = 50;
+// }
 
 // temrature 
 var temprature = 75;
