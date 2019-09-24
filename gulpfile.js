@@ -44,7 +44,7 @@ var r2_username = 'reza8462';
 var r_oclock = 1.1;
 var r_dclock = 0.8;
 var r_ips = [101, 102, 103, 104, 106, 107, 109];
-var r_ids = [111, 112, 113, 114, 116, 117, 119];
+var r_ids = [101, 102, 103, 104, 106, 107, 109];
 var r_subuser1 = 'leilaakram';
 var rsub1_ips = [105, 108];
 // Vahid
@@ -342,7 +342,7 @@ gulp.task('dreza', function () {
 
 
 gulp.task('nreza', function () {
-      for (var i = 0; i < r_ips.length; i++) {
+      for (var i = 0; i < r_ids.length; i++) {
             gulp.src([
                   'config/cgminer.conf.normal'
             ])
