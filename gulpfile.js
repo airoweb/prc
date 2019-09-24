@@ -184,10 +184,10 @@ gulp.task('obehzad_sub1', function () {
       gulp.src([
             'config/cgminer.conf.overclock'
       ])
-            .pipe(replace('#username.worker', b_subuser1 + '.overclock'))
-            .pipe(replace('#pooladdress1', pooladdress1))
-            .pipe(replace('#pooladdress2', pooladdress2))
-            .pipe(replace('#pooladdress3', pooladdress3))
+            .pipe(replace('#username.worker', b_subuser1 + '.101'))
+            .pipe(replace('#pooladdress1', altpooladdress1))
+            .pipe(replace('#pooladdress2', altpooladdress2))
+            .pipe(replace('#pooladdress3', altpooladdress3))
             .pipe(replace('#temprature', temprature))
             .pipe(replace('#oclock', oclock))
             .pipe(gulp.dest('config/' + b_user + '/' + b_subuser1));
@@ -197,10 +197,10 @@ gulp.task('dbehzad_sub1', function () {
       gulp.src([
             'config/cgminer.conf.low'
       ])
-            .pipe(replace('#username.worker', b_subuser1 + '.low'))
-            .pipe(replace('#pooladdress1', pooladdress1))
-            .pipe(replace('#pooladdress2', pooladdress2))
-            .pipe(replace('#pooladdress3', pooladdress3))
+            .pipe(replace('#username.worker', b_subuser1 + '.100'))
+            .pipe(replace('#pooladdress1', altpooladdress1))
+            .pipe(replace('#pooladdress2', altpooladdress2))
+            .pipe(replace('#pooladdress3', altpooladdress3))
             .pipe(replace('#temprature', temprature))
             .pipe(replace('#dclock', dclock))
             .pipe(gulp.dest('config/' + b_user + '/' + b_subuser1));
@@ -212,9 +212,9 @@ gulp.task('nbehzad_sub1', function () {
             gulp.src([
                   'config/cgminer.conf.normal'
             ])
-                  .pipe(replace('#pooladdress1', pooladdress1))
-                  .pipe(replace('#pooladdress2', pooladdress2))
-                  .pipe(replace('#pooladdress3', pooladdress3))
+                  .pipe(replace('#pooladdress1', altpooladdress1))
+                  .pipe(replace('#pooladdress2', altpooladdress2))
+                  .pipe(replace('#pooladdress3', altpooladdress3))
                   .pipe(replace('#temprature', temprature))
                   .pipe(replace('#username.worker', b_subuser1 + '.' + bsub1_ips[i]))
                   .pipe(rename('cgminer.conf.' + bsub1_ips[i]))
@@ -251,10 +251,10 @@ gulp.task('obehzad_sub2', function () {
       gulp.src([
             'config/cgminer.conf.overclock'
       ])
-            .pipe(replace('#username.worker', b_subuser2 + '.overclock'))
-            .pipe(replace('#pooladdress1', pooladdress1))
-            .pipe(replace('#pooladdress2', pooladdress2))
-            .pipe(replace('#pooladdress3', pooladdress3))
+            .pipe(replace('#username.worker', b_subuser2 + '.101'))
+            .pipe(replace('#pooladdress1', altpooladdress1))
+            .pipe(replace('#pooladdress2', altpooladdress2))
+            .pipe(replace('#pooladdress3', altpooladdress3))
             .pipe(replace('#temprature', temprature))
             .pipe(replace('#oclock', oclock))
             .pipe(gulp.dest('config/' + b_user + '/' + b_subuser2));
@@ -264,10 +264,10 @@ gulp.task('dbehzad_sub2', function () {
       gulp.src([
             'config/cgminer.conf.low'
       ])
-            .pipe(replace('#username.worker', b_subuser2 + '.low'))
-            .pipe(replace('#pooladdress1', pooladdress1))
-            .pipe(replace('#pooladdress2', pooladdress2))
-            .pipe(replace('#pooladdress3', pooladdress3))
+            .pipe(replace('#username.worker', b_subuser2 + '.100'))
+            .pipe(replace('#pooladdress1', altpooladdress1))
+            .pipe(replace('#pooladdress2', altpooladdress2))
+            .pipe(replace('#pooladdress3', altpooladdress3))
             .pipe(replace('#temprature', temprature))
             .pipe(replace('#dclock', dclock))
             .pipe(gulp.dest('config/' + b_user + '/' + b_subuser2));
@@ -279,9 +279,9 @@ gulp.task('nbehzad_sub2', function () {
             gulp.src([
                   'config/cgminer.conf.normal'
             ])
-                  .pipe(replace('#pooladdress1', pooladdress1))
-                  .pipe(replace('#pooladdress2', pooladdress2))
-                  .pipe(replace('#pooladdress3', pooladdress3))
+                  .pipe(replace('#pooladdress1', altpooladdress1))
+                  .pipe(replace('#pooladdress2', altpooladdress2))
+                  .pipe(replace('#pooladdress3', altpooladdress3))
                   .pipe(replace('#temprature', temprature))
                   .pipe(replace('#username.worker', b_subuser2 + '.' + bsub2_ips[i]))
                   .pipe(rename('cgminer.conf.' + bsub2_ips[i]))
