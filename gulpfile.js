@@ -400,9 +400,9 @@ gulp.task('dreza_sub1', function () {
             'config/cgminer.conf.low'
       ])
             .pipe(replace('#username.worker', r2_subuser1 + '.100'))
-            .pipe(replace('#pooladdress1', pooladdress1))
-            .pipe(replace('#pooladdress2', pooladdress2))
-            .pipe(replace('#pooladdress3', pooladdress3))
+            .pipe(replace('#pooladdress1', altpooladdress1))
+            .pipe(replace('#pooladdress2', altpooladdress2))
+            .pipe(replace('#pooladdress3', altpooladdress3))
             .pipe(replace('#temprature', temprature))
             .pipe(replace('#dclock', dclock))
             .pipe(gulp.dest('config/' + r_user + '/' + r_subuser1));
