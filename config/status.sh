@@ -19,5 +19,5 @@ if [ 18000 -gt "$hash_rate" ];  then
 	sleep 90
 
 	uptime=$(sshpass -p "Hamid1010" ssh -o StrictHostKeyChecking=no root@192.168.7.101 "uptime")
-	echo "Current uptime is: $uptime." | mail -s "Miner Status - $epoch" foobar@gmail.com;
+	echo "Current uptime is: $uptime." | mail -s "Miner Status - $epoch" behzadamirinezhad@gmail.com;
 fi
