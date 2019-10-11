@@ -7,9 +7,12 @@
 # Replace passwords, IP's and email address as needed
 
 # Get the current hash rate
-`echo '{"command":"stats"}' | nc 192.168.7.101 4028 >> output.txt`
+`echo '{"command":"stats"}' | nc 192.168.7.101 4028 >> output.txt` |
 
-hash_rate=awk -v tag='GHS av' 'match($0,"\""tag"\": *(\"[^\"]*|[0-9]+)") { val=substr($0,RSTART,RLENGTH); sub(/^"[^"]+": *"?/,"",val); print val }' output.txt
-epoch=(date +%s)
-echo "Hashrate is $hash_rate
-
+hash_rate=$(awk -v tag='GHS 5s' 'match($0,"\""tag"\": *(\"[^\"]*|[0-9]+)") { val=substr($0,RSTART,RLENGTH); sub(/^"[^"]+": *"?/,"",val); print val }' output.txt) |
+epoch=$(date +%s) | 
+echo "Hashrate is $hash_rate |
+if [ 18000 -gt "$hash_rate" ];  then |
+	echo "Hashrate is $hash_rate, rebooting..." | mail -s "Antminer Status - $epoch" behzadamirinezhad@gmail.com; |
+	"/etc/init.d/cgminer reload" |
+fi
