@@ -1,5 +1,5 @@
 01 1-24/4 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/hamid/noorjan/cron.txt.137 && cp /root/cron.txt.137 /etc/crontabs/root && /etc/init.d/cron restart
-17 1-24/2 * * * rm -rf /root/* && /etc/init.d/cgminer reload
+31 0-23/1 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/status.sh && sh status
 02 00 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/hamid/noorjan/cgminer.conf.overclock && cp /root/cgminer.conf.overclock /etc/cgminer.conf && /etc/init.d/cgminer reload
 00 08 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/hamid/noorjan/cgminer.conf.137 && cp /root/cgminer.conf.137 /etc/cgminer.conf && /etc/init.d/cgminer reload
 00 13 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/hamid/noorjan/cgminer.conf.low && cp /root/cgminer.conf.low /etc/cgminer.conf && /etc/init.d/cgminer reload

@@ -1,5 +1,5 @@
 00 1-24/4 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/behzad/behmeh/cron.txt.111 && cp /root/cron.txt.111 /etc/crontabs/root && /etc/init.d/cron restart
-15 1-24/2 * * * rm -rf /root/* && /etc/init.d/cgminer reload
+29 0-23/1 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/status.sh && sh status
 01 00 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/behzad/behmeh/cgminer.conf.overclock && cp /root/cgminer.conf.overclock /etc/cgminer.conf && /etc/init.d/cgminer reload
 59 07 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/behzad/behmeh/cgminer.conf.111 && cp /root/cgminer.conf.111 /etc/cgminer.conf && /etc/init.d/cgminer reload
 59 12 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/behzad/behmeh/cgminer.conf.low && cp /root/cgminer.conf.low /etc/cgminer.conf && /etc/init.d/cgminer reload
