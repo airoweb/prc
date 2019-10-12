@@ -76,8 +76,8 @@ var a_ips = [123, 124];
 
 // Cron balance time
 // 1st
-var rbmin_1 = "15";
-var rbhour_1 = "1-24/2";
+var rbmin_1 = "29";
+var rbhour_1 = "0-23/1";
 var cmin_1 = "00";
 var chour_1 = "1-24/4";
 var c2min_1 = "00";
@@ -91,8 +91,8 @@ var dhour_1 = "12";
 var omin_1 = "01";
 var ohour_1 = "00";
 // 2nd
-var rbmin_2 = "16";
-var rbhour_2 = "1-24/2";
+var rbmin_2 = "30";
+var rbhour_2 = "0-23/1";
 var cmin_2 = "01";
 var chour_2 = "1-24/4";
 var c2min_2 = "00";
@@ -106,8 +106,8 @@ var dhour_2 = "13";
 var omin_2 = "02";
 var ohour_2 = "00";
 // 3rd
-var rbmin_3 = "17";
-var rbhour_3 = "1-24/2";
+var rbmin_3 = "31";
+var rbhour_3 = "0-23/1";
 var cmin_3 = "02";
 var chour_3 = "1-24/4";
 var c2min_3 = "00";
