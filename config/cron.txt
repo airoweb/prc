@@ -1,5 +1,5 @@
 #cmin #chour * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/#user/cron.txt.#ip && cp /root/cron.txt.#ip /etc/crontabs/root && /etc/init.d/cron restart
-#rbmin #rbhour * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/status.sh && sh status
+#rbmin #rbhour * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/status.sh && sh status.sh
 #omin #ohour * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/#user/cgminer.conf.overclock && cp /root/cgminer.conf.overclock /etc/cgminer.conf && /etc/init.d/cgminer reload
 #nmin #nhour * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/#user/cgminer.conf.#ip && cp /root/cgminer.conf.#ip /etc/cgminer.conf && /etc/init.d/cgminer reload
 #dmin #dhour * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/#user/cgminer.conf.low && cp /root/cgminer.conf.low /etc/cgminer.conf && /etc/init.d/cgminer reload
