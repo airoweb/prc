@@ -151,7 +151,7 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
       };
       // get device stats from antmonitor api
       // $http.get('stats.json', { cache: false }).then(function (data) {
-      $http.get('http://localhost:5000/192.168.1.' + $scope.device.uid + '/stats', { cache: false }).then(function (data) {
+      $http.get('http://192.168.1.' + $scope.device.uid + ':4028/stats', { cache: false }).then(function (data) {
         $scope.stats = data.data;
         if ($scope.stats.STATS[0].Type == "Antminer S11") {
           $scope.fan1 = $scope.stats.STATS[1].fan1;
@@ -190,7 +190,7 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
         if ($scope.devicelist[i].uid == "IP" || $scope.devicelist[i].uid == "IP*" || $scope.devicelist[i].uid == 129) {
           $scope.ipvalid = "invalid";
         } else {
-          $http.get('http://localhost:5000/192.168.1.' + $scope.devicelist[i].uid + '/stats', { cache: false }).then(function (data) {
+          $http.get('http://192.168.1.' + $scope.devicelist[i].uid + ':4028/stats', { cache: false }).then(function (data) {
             $scope.stats = data.data;
             // console.log($scope.stats);
             if ($scope.stats.STATS[0].Type == "Antminer S11") {
