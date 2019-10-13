@@ -320,7 +320,7 @@
         "name": "X"
     },
     {
-        "uid": "IP*",
+        "uid": 137,
         "relay": "41",
         "os": "B-sd",
         "type": "s9j",
@@ -328,7 +328,7 @@
         "name": "Hamid"
     },
     {
-        "uid": "IP*",
+        "uid": 138,
         "relay": "42",
         "os": "B-sd",
         "type": "s9j",
@@ -352,7 +352,7 @@
         "name": "X"
     },
     {
-        "uid": "IP*",
+        "uid": 139,
         "relay": "45",
         "os": "b-sd",
         "type": "s9j",
