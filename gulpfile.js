@@ -21,7 +21,7 @@ var altpooladdress3 = 'btc.ss.poolin.com:25';
 // }
 
 // temrature 
-var temprature = 75;
+var temprature = 70;
 
 // over and down clock
 var oclock = 1.05
@@ -31,8 +31,7 @@ var b_user = 'behzad';
 var b_username = '3ehzad';
 var b_oclock = 1.05;
 var b_dclock = 0.8;
-var b_ips = [121, 122, 141];
-var b_ids = [101, 102, 103, 104];
+var b_ips = [121, 122, 141, 132];
 var b_subuser1 = 'behmeh';
 var bsub1_ips = [110, 111];
 var b_subuser2 = 'beharmin';
@@ -44,11 +43,10 @@ var r2_username = 'reza8462';
 var r_oclock = 1.05;
 var r_dclock = 0.8;
 var r_ips = [101, 102, 103, 104, 106, 107, 109];
-var r_ids = [101, 102, 103, 104, 106, 107, 109];
 var r_subuser1 = 'leilaakram';
 var r2_subuser1 = 'leilaakram';
 var rsub1_ips = [105, 108];
-var rsub1_ids = [105, 108];
+var rsub1_ips = [105, 108];
 // Vahid
 var v_user = 'vahid';
 var v_username = 'Elec100';
@@ -56,7 +54,6 @@ var v2_username = 'elec100';
 var v_oclock = 1.05;
 var v_dclock = 0.8;
 var v_ips = [113, 114, 115, 116, 125, 126, 132];
-var v_ids = [101, 102, 103, 104, 105, 106]
 // Hamid
 var h_user = 'hamid';
 var h_username = 'sabermand';
@@ -126,7 +123,7 @@ gulp.task('obehzad', function () {
       gulp.src([
             'config/cgminer.conf.overclock'
       ])
-            .pipe(replace('#username.worker', b_username + '.105'))
+            .pipe(replace('#username.worker', b_username + '.100'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -139,7 +136,7 @@ gulp.task('dbehzad', function () {
       gulp.src([
             'config/cgminer.conf.low'
       ])
-            .pipe(replace('#username.worker', b_username + '.106'))
+            .pipe(replace('#username.worker', b_username + '.99'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -150,7 +147,7 @@ gulp.task('dbehzad', function () {
 
 
 gulp.task('nbehzad', function () {
-      for (var i = 0; i < b_ids.length; i++) {
+      for (var i = 0; i < b_ips.length; i++) {
             gulp.src([
                   'config/cgminer.conf.normal'
             ])
@@ -158,14 +155,14 @@ gulp.task('nbehzad', function () {
                   .pipe(replace('#pooladdress2', altpooladdress2))
                   .pipe(replace('#pooladdress3', altpooladdress3))
                   .pipe(replace('#temprature', temprature))
-                  .pipe(replace('#username.worker', b_username + '.' + b_ids[i]))
-                  .pipe(rename('cgminer.conf.' + b_ids[i]))
+                  .pipe(replace('#username.worker', b_username + '.' + b_ips[i]))
+                  .pipe(rename('cgminer.conf.' + b_ips[i]))
                   .pipe(gulp.dest('config/' + b_user));
       }
 });
 
 gulp.task('cbehzad', function () {
-      for (var i = 0; i < b_ids.length; i++) {
+      for (var i = 0; i < b_ips.length; i++) {
             gulp.src([
                   'config/cron.txt'
             ])
@@ -184,8 +181,8 @@ gulp.task('cbehzad', function () {
                   .pipe(replace('#ohour', ohour_1))
                   .pipe(replace('#dmin', dmin_1))
                   .pipe(replace('#dhour', dhour_1))
-                  .pipe(replace('#ip', b_ids[i]))
-                  .pipe(rename('cron.txt.' + b_ids[i]))
+                  .pipe(replace('#ip', b_ips[i]))
+                  .pipe(rename('cron.txt.' + b_ips[i]))
                   .pipe(gulp.dest('config/' + b_user));
       }
 });
@@ -194,7 +191,7 @@ gulp.task('obehzad_sub1', function () {
       gulp.src([
             'config/cgminer.conf.overclock'
       ])
-            .pipe(replace('#username.worker', b_subuser1 + '.101'))
+            .pipe(replace('#username.worker', b_subuser1 + '.100'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -207,7 +204,7 @@ gulp.task('dbehzad_sub1', function () {
       gulp.src([
             'config/cgminer.conf.low'
       ])
-            .pipe(replace('#username.worker', b_subuser1 + '.100'))
+            .pipe(replace('#username.worker', b_subuser1 + '.99'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -263,7 +260,7 @@ gulp.task('obehzad_sub2', function () {
       gulp.src([
             'config/cgminer.conf.overclock'
       ])
-            .pipe(replace('#username.worker', b_subuser2 + '.101'))
+            .pipe(replace('#username.worker', b_subuser2 + '.100'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -276,7 +273,7 @@ gulp.task('dbehzad_sub2', function () {
       gulp.src([
             'config/cgminer.conf.low'
       ])
-            .pipe(replace('#username.worker', b_subuser2 + '.100'))
+            .pipe(replace('#username.worker', b_subuser2 + '.99'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -334,7 +331,7 @@ gulp.task('oreza', function () {
       gulp.src([
             'config/cgminer.conf.overclock'
       ])
-            .pipe(replace('#username.worker', r2_username + '.121'))
+            .pipe(replace('#username.worker', r2_username + '.100'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -347,7 +344,7 @@ gulp.task('dreza', function () {
       gulp.src([
             'config/cgminer.conf.low'
       ])
-            .pipe(replace('#username.worker', r2_username + '.120'))
+            .pipe(replace('#username.worker', r2_username + '.99'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -358,7 +355,7 @@ gulp.task('dreza', function () {
 
 
 gulp.task('nreza', function () {
-      for (var i = 0; i < r_ids.length; i++) {
+      for (var i = 0; i < r_ips.length; i++) {
             gulp.src([
                   'config/cgminer.conf.normal'
             ])
@@ -366,14 +363,14 @@ gulp.task('nreza', function () {
                   .pipe(replace('#pooladdress2', altpooladdress2))
                   .pipe(replace('#pooladdress3', altpooladdress3))
                   .pipe(replace('#temprature', temprature))
-                  .pipe(replace('#username.worker', r2_username + '.' + r_ids[i]))
-                  .pipe(rename('cgminer.conf.' + r_ids[i]))
+                  .pipe(replace('#username.worker', r2_username + '.' + r_ips[i]))
+                  .pipe(rename('cgminer.conf.' + r_ips[i]))
                   .pipe(gulp.dest('config/' + r_user));
       }
 });
 
 gulp.task('creza', function () {
-      for (var i = 0; i < r_ids.length; i++) {
+      for (var i = 0; i < r_ips.length; i++) {
             gulp.src([
                   'config/cron.txt'
             ])
@@ -392,8 +389,8 @@ gulp.task('creza', function () {
                   .pipe(replace('#ohour', ohour_2))
                   .pipe(replace('#dmin', dmin_2))
                   .pipe(replace('#dhour', dhour_2))
-                  .pipe(replace('#ip', r_ids[i]))
-                  .pipe(rename('cron.txt.' + r_ids[i]))
+                  .pipe(replace('#ip', r_ips[i]))
+                  .pipe(rename('cron.txt.' + r_ips[i]))
                   .pipe(gulp.dest('config/' + r_user));
       }
 });
@@ -402,7 +399,7 @@ gulp.task('oreza_sub1', function () {
       gulp.src([
             'config/cgminer.conf.overclock'
       ])
-            .pipe(replace('#username.worker', r2_subuser1 + '.101'))
+            .pipe(replace('#username.worker', r2_subuser1 + '.100'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -415,7 +412,7 @@ gulp.task('dreza_sub1', function () {
       gulp.src([
             'config/cgminer.conf.low'
       ])
-            .pipe(replace('#username.worker', r2_subuser1 + '.100'))
+            .pipe(replace('#username.worker', r2_subuser1 + '.99'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -426,7 +423,7 @@ gulp.task('dreza_sub1', function () {
 
 
 gulp.task('nreza_sub1', function () {
-      for (var i = 0; i < rsub1_ids.length; i++) {
+      for (var i = 0; i < rsub1_ips.length; i++) {
             gulp.src([
                   'config/cgminer.conf.normal'
             ])
@@ -434,14 +431,14 @@ gulp.task('nreza_sub1', function () {
                   .pipe(replace('#pooladdress2', altpooladdress2))
                   .pipe(replace('#pooladdress3', altpooladdress3))
                   .pipe(replace('#temprature', temprature))
-                  .pipe(replace('#username.worker', r_subuser1 + '.' + rsub1_ids[i]))
-                  .pipe(rename('cgminer.conf.' + rsub1_ids[i]))
+                  .pipe(replace('#username.worker', r_subuser1 + '.' + rsub1_ips[i]))
+                  .pipe(rename('cgminer.conf.' + rsub1_ips[i]))
                   .pipe(gulp.dest('config/' + r_user + '/' + r_subuser1));
       }
 });
 
 gulp.task('creza_sub1', function () {
-      for (var i = 0; i < rsub1_ids.length; i++) {
+      for (var i = 0; i < rsub1_ips.length; i++) {
             gulp.src([
                   'config/cron.txt'
             ])
@@ -460,8 +457,8 @@ gulp.task('creza_sub1', function () {
                   .pipe(replace('#ohour', ohour_2))
                   .pipe(replace('#dmin', dmin_2))
                   .pipe(replace('#dhour', dhour_2))
-                  .pipe(replace('#ip', rsub1_ids[i]))
-                  .pipe(rename('cron.txt.' + rsub1_ids[i]))
+                  .pipe(replace('#ip', rsub1_ips[i]))
+                  .pipe(rename('cron.txt.' + rsub1_ips[i]))
                   .pipe(gulp.dest('config/' + r_user + '/' + r_subuser1));
       }
 });
@@ -473,7 +470,7 @@ gulp.task('ovahid', function () {
       gulp.src([
             'config/cgminer.conf.overclock'
       ])
-            .pipe(replace('#username.worker', v2_username + '.108'))
+            .pipe(replace('#username.worker', v2_username + '.100'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -486,7 +483,7 @@ gulp.task('dvahid', function () {
       gulp.src([
             'config/cgminer.conf.low'
       ])
-            .pipe(replace('#username.worker', v2_username + '.107'))
+            .pipe(replace('#username.worker', v2_username + '.99'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -497,7 +494,7 @@ gulp.task('dvahid', function () {
 
 
 gulp.task('nvahid', function () {
-      for (var i = 0; i < v_ids.length; i++) {
+      for (var i = 0; i < v_ips.length; i++) {
             gulp.src([
                   'config/cgminer.conf.normal'
             ])
@@ -505,8 +502,8 @@ gulp.task('nvahid', function () {
                   .pipe(replace('#pooladdress2', altpooladdress2))
                   .pipe(replace('#pooladdress3', altpooladdress3))
                   .pipe(replace('#temprature', temprature))
-                  .pipe(replace('#username.worker', v2_username + '.' + v_ids[i]))
-                  .pipe(rename('cgminer.conf.' + v_ids[i]))
+                  .pipe(replace('#username.worker', v2_username + '.' + v_ips[i]))
+                  .pipe(rename('cgminer.conf.' + v_ips[i]))
                   .pipe(gulp.dest('config/' + v_user));
       }
 });
@@ -531,8 +528,8 @@ gulp.task('cvahid', function () {
                   .pipe(replace('#ohour', ohour_3))
                   .pipe(replace('#dmin', dmin_3))
                   .pipe(replace('#dhour', dhour_3))
-                  .pipe(replace('#ip', v_ids[i]))
-                  .pipe(rename('cron.txt.' + v_ids[i]))
+                  .pipe(replace('#ip', v_ips[i]))
+                  .pipe(rename('cron.txt.' + v_ips[i]))
                   .pipe(gulp.dest('config/' + v_user));
       }
 });
@@ -543,7 +540,7 @@ gulp.task('ohamid', function () {
       gulp.src([
             'config/cgminer.conf.overclock'
       ])
-            .pipe(replace('#username.worker', h2_username + '.101'))
+            .pipe(replace('#username.worker', h2_username + '.100'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -556,7 +553,7 @@ gulp.task('dhamid', function () {
       gulp.src([
             'config/cgminer.conf.low'
       ])
-            .pipe(replace('#username.worker', h2_username + '.100'))
+            .pipe(replace('#username.worker', h2_username + '.99'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -611,7 +608,7 @@ gulp.task('ohamid_sub1', function () {
       gulp.src([
             'config/cgminer.conf.overclock'
       ])
-            .pipe(replace('#username.worker', h2_subuser1 + '.101'))
+            .pipe(replace('#username.worker', h2_subuser1 + '.100'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -624,7 +621,7 @@ gulp.task('dhamid_sub1', function () {
       gulp.src([
             'config/cgminer.conf.low'
       ])
-            .pipe(replace('#username.worker', h2_subuser1 + '.100'))
+            .pipe(replace('#username.worker', h2_subuser1 + '.99'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -682,7 +679,7 @@ gulp.task('oamir', function () {
       gulp.src([
             'config/cgminer.conf.overclock'
       ])
-            .pipe(replace('#username.worker', a_username + '.101'))
+            .pipe(replace('#username.worker', a_username + '.100'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
@@ -695,7 +692,7 @@ gulp.task('damir', function () {
       gulp.src([
             'config/cgminer.conf.low'
       ])
-            .pipe(replace('#username.worker', a_username + '.100'))
+            .pipe(replace('#username.worker', a_username + '.99'))
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
