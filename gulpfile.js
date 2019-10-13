@@ -21,7 +21,9 @@ var altpooladdress3 = 'btc.ss.poolin.com:25';
 // }
 
 // temrature 
+var tempraturel = 72;
 var temprature = 70;
+var tempratureo = 65;
 
 // over and down clock
 var oclock = 1.05
@@ -127,7 +129,7 @@ gulp.task('obehzad', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempratureo))
             .pipe(replace('#oclock', b_oclock))
             .pipe(gulp.dest('config/' + b_user));
 });
@@ -140,7 +142,7 @@ gulp.task('dbehzad', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempraturel))
             .pipe(replace('#dclock', b_dclock))
             .pipe(gulp.dest('config/' + b_user));
 });
@@ -195,7 +197,7 @@ gulp.task('obehzad_sub1', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempratureo))
             .pipe(replace('#oclock', oclock))
             .pipe(gulp.dest('config/' + b_user + '/' + b_subuser1));
 });
@@ -208,7 +210,7 @@ gulp.task('dbehzad_sub1', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempraturel))
             .pipe(replace('#dclock', dclock))
             .pipe(gulp.dest('config/' + b_user + '/' + b_subuser1));
 });
@@ -264,7 +266,7 @@ gulp.task('obehzad_sub2', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempratureo))
             .pipe(replace('#oclock', oclock))
             .pipe(gulp.dest('config/' + b_user + '/' + b_subuser2));
 });
@@ -277,7 +279,7 @@ gulp.task('dbehzad_sub2', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempraturel))
             .pipe(replace('#dclock', dclock))
             .pipe(gulp.dest('config/' + b_user + '/' + b_subuser2));
 });
@@ -335,7 +337,7 @@ gulp.task('oreza', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempratureo))
             .pipe(replace('#oclock', r_oclock))
             .pipe(gulp.dest('config/' + r_user));
 });
@@ -348,7 +350,7 @@ gulp.task('dreza', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempraturel))
             .pipe(replace('#dclock', r_dclock))
             .pipe(gulp.dest('config/' + r_user));
 });
@@ -403,7 +405,7 @@ gulp.task('oreza_sub1', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempratureo))
             .pipe(replace('#oclock', oclock))
             .pipe(gulp.dest('config/' + r_user + '/' + r_subuser1));
 });
@@ -416,7 +418,7 @@ gulp.task('dreza_sub1', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempraturel))
             .pipe(replace('#dclock', dclock))
             .pipe(gulp.dest('config/' + r_user + '/' + r_subuser1));
 });
@@ -474,7 +476,7 @@ gulp.task('ovahid', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempratureo))
             .pipe(replace('#oclock', v_oclock))
             .pipe(gulp.dest('config/' + v_user));
 });
@@ -487,7 +489,7 @@ gulp.task('dvahid', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempraturel))
             .pipe(replace('#dclock', v_dclock))
             .pipe(gulp.dest('config/' + v_user));
 });
@@ -544,7 +546,7 @@ gulp.task('ohamid', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempratureo))
             .pipe(replace('#oclock', oclock))
             .pipe(gulp.dest('config/' + h_user));
 });
@@ -557,7 +559,7 @@ gulp.task('dhamid', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempraturel))
             .pipe(replace('#dclock', dclock))
             .pipe(gulp.dest('config/' + h_user));
 });
@@ -612,7 +614,7 @@ gulp.task('ohamid_sub1', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempratureo))
             .pipe(replace('#oclock', oclock))
             .pipe(gulp.dest('config/' + h_user + '/' + h_subuser1));
 });
@@ -625,7 +627,7 @@ gulp.task('dhamid_sub1', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempraturel))
             .pipe(replace('#dclock', dclock))
             .pipe(gulp.dest('config/' + h_user + '/' + h_subuser1));
 });
@@ -683,7 +685,7 @@ gulp.task('oamir', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempratureo))
             .pipe(replace('#oclock', oclock))
             .pipe(gulp.dest('config/' + a_user));
 });
@@ -696,7 +698,7 @@ gulp.task('damir', function () {
             .pipe(replace('#pooladdress1', altpooladdress1))
             .pipe(replace('#pooladdress2', altpooladdress2))
             .pipe(replace('#pooladdress3', altpooladdress3))
-            .pipe(replace('#temprature', temprature))
+            .pipe(replace('#temprature', tempraturel))
             .pipe(replace('#dclock', dclock))
             .pipe(gulp.dest('config/' + a_user));
 });
