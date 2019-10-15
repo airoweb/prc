@@ -75,14 +75,14 @@ var a_ips = [123, 124];
 
 // Cron balance time
 // 1st
-var rbmin_1 = "29";
+var rbmin_1 = "30";
 var rbhour_1 = "0-23/1";
 var cmin_1 = "00";
-var chour_1 = "1-24/2";
+var chour_1 = "1-24/3";
 var c2min_1 = "00";
 var c2hour_1 = "11";
-var nmin_1 = "59";
-var nhour_1 = "07";
+var nmin_1 = "00";
+var nhour_1 = "14";
 var n2min_1 = "30";
 var n2hour_1 = "17";
 var dmin_1 = "59";
@@ -92,12 +92,12 @@ var ohour_1 = "00";
 // 2nd
 var rbmin_2 = "30";
 var rbhour_2 = "0-23/1";
-var cmin_2 = "01";
-var chour_2 = "1-24/2";
+var cmin_2 = "05";
+var chour_2 = "1-24/3";
 var c2min_2 = "00";
 var c2hour_2 = "11";
-var nmin_2 = "00";
-var nhour_2 = "08";
+var nmin_2 = "05";
+var nhour_2 = "14";
 var n2min_2 = "31";
 var n2hour_2 = "17";
 var dmin_2 = "00";
@@ -105,14 +105,14 @@ var dhour_2 = "13";
 var omin_2 = "02";
 var ohour_2 = "00";
 // 3rd
-var rbmin_3 = "31";
+var rbmin_3 = "30";
 var rbhour_3 = "0-23/1";
-var cmin_3 = "02";
-var chour_3 = "1-24/2";
+var cmin_3 = "10";
+var chour_3 = "1-24/3";
 var c2min_3 = "00";
 var c2hour_3 = "11";
-var nmin_3 = "01";
-var nhour_3 = "08";
+var nmin_3 = "10";
+var nhour_3 = "14";
 var n2min_3 = "32";
 var n2hour_3 = "17";
 var dmin_3 = "01";
