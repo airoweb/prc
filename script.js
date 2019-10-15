@@ -140,7 +140,7 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
         parent: angular.element(document.querySelector('#popupContainer')),
         targetEvent: ev,
         clickOutsideToClose: true,
-        fullscreen: false,
+        fullscreen: true,
         preserveScope: true
       })
     };
