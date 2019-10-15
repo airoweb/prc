@@ -21,8 +21,8 @@ var altpooladdress3 = 'btc.ss.poolin.com:25';
 // }
 
 // temrature 
-var tempraturel = 72;
-var temprature = 70;
+var tempraturel = 70;
+var temprature = 75;
 var tempratureo = 65;
 
 // over and down clock
