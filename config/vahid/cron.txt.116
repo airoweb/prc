@@ -1,3 +1,3 @@
-02 1-24/2 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/vahid/cron.txt.116 && cp /root/cron.txt.116 /etc/crontabs/root && /etc/init.d/cron restart
-30 0-23/1 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/status.sh && sh status.sh
-01 08 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/vahid/cgminer.conf.116 && cp /root/cgminer.conf.116 /etc/cgminer.conf && /etc/init.d/cgminer reload
+10 1-24/3 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/vahid/cron.txt.116 && cp /root/cron.txt.116 /etc/crontabs/root && /etc/init.d/cron restart
+30 0-23/1 * * * rm -rf /root/output.txt && cd /root && sh status.sh
+10 14 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/vahid/cgminer.conf.116 && cp /root/cgminer.conf.116 /etc/cgminer.conf && /etc/init.d/cgminer reload
