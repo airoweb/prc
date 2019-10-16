@@ -49,7 +49,7 @@ angular.module('Airofarm', ['ngMaterial', 'ngMessages'])
       });
     }
     $scope.psuALLOFF = function () {
-      $http.get($rootScope.espip + 'MINERALL_OFF').then(function (response) {
+      $http.get($rootScope.espip + 'MINER_OFF').then(function (response) {
         $scope.psuresponse = response.data;
       });
     }
