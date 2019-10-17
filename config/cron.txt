@@ -1,3 +1,3 @@
 #cmin #chour * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/#user/cron.txt.#ip && cp /root/cron.txt.#ip /etc/crontabs/root && /etc/init.d/cron restart
-#rbmin #rbhour * * * rm -rf /root/output.txt && cd /root && sh status.sh
+#rbmin #rbhour * * * reboot
 #nmin #nhour * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/#user/cgminer.conf.#ip && cp /root/cgminer.conf.#ip /etc/cgminer.conf && /etc/init.d/cgminer reload
