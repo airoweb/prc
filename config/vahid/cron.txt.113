@@ -1,3 +1,1 @@
 10 1-24/3 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/vahid/cron.txt.113 && cp /root/cron.txt.113 /etc/crontabs/root && /etc/init.d/cron restart
-30 1-23/2 * * * reboot
-10 14 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/vahid/cgminer.conf.113 && cp /root/cgminer.conf.113 /etc/cgminer.conf && /etc/init.d/cgminer reload

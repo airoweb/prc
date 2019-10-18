@@ -1,3 +1,1 @@
 00 1-24/3 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/behzad/cron.txt.141 && cp /root/cron.txt.141 /etc/crontabs/root && /etc/init.d/cron restart
-30 1-23/2 * * * reboot
-00 14 * * * rm -rf /root/* && cd /root && wget https://raw.githubusercontent.com/3ehzad/prc/master/config/behzad/cgminer.conf.141 && cp /root/cgminer.conf.141 /etc/cgminer.conf && /etc/init.d/cgminer reload

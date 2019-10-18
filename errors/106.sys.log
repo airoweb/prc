@@ -1,0 +1,564 @@
+Fri Oct 18 10:50:08 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:08.894] Accepted 028795b3 Diff 25.9K/16384 BC5 0 pool 0 
+Fri Oct 18 10:50:12 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:12.492] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:50:12 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:12.492] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:50:16 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:16.406] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:50:16 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:16.406] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:50:16 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:16.406] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:50:22 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:22.369] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:50:26 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:26.283] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:50:26 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:26.283] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:50:30 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:30.197] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:50:30 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:30.198] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:50:30 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:30.198] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:50:31 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:31.866] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 10:50:32 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:32.135] Accepted 03e9738e Diff 16.8K/16384 BC5 0 pool 0 
+Fri Oct 18 10:50:36 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:36.161] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:50:38 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:38.532] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 10:50:38 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:38.784] Accepted 03dcd669 Diff 17K/16384 BC5 0 pool 0 
+Fri Oct 18 10:50:40 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:40.077] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:50:40 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:40.077] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:50:43 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:43.994] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:50:43 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:43.995] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:50:43 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:43.995] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:50:49 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:49.957] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:50:53 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:53.874] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:50:53 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:53.874] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:50:57 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:57.788] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:50:57 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:57.788] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:50:57 2019 daemon.err cgminer[1437]:  [2019-10-18 10:50:57.789] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:51:03 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:03.752] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:51:07 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:07.665] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:51:07 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:07.665] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:51:11 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:11.579] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:51:11 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:11.580] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:51:11 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:11.580] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:51:17 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:17.543] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:51:18 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:18.440] Version submitting share mask 0x00400000 with work version 0x20400000 and pool version 0x20000000
+Fri Oct 18 10:51:18 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:18.694] Accepted 02440e2a Diff 28.9K/16384 BC5 0 pool 0 
+Fri Oct 18 10:51:19 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:19.807] Version submitting share mask 0x00400000 with work version 0x20400000 and pool version 0x20000000
+Fri Oct 18 10:51:20 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:20.057] Accepted 0277c614 Diff 26.6K/16384 BC5 0 pool 0 
+Fri Oct 18 10:51:21 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:21.458] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:51:21 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:21.459] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:51:25 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:25.373] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:51:25 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:25.373] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:51:25 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:25.373] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:51:28 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:28.778] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 10:51:29 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:29.026] Accepted 01c2fdb0 Diff 37.2K/16384 BC5 0 pool 0 
+Fri Oct 18 10:51:31 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:31.337] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:51:35 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:35.250] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:51:35 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:35.250] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:51:39 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:39.164] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:51:39 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:39.165] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:51:39 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:39.165] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:51:45 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:45.128] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:51:48 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:48.790] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 10:51:49 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:49.043] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:51:49 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:49.044] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:51:49 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:49.062] Accepted ee9b82e6 Diff 70.3K/16384 BC5 0 pool 0 
+Fri Oct 18 10:51:52 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:52.956] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:51:52 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:52.956] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:51:52 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:52.956] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:51:58 2019 daemon.err cgminer[1437]:  [2019-10-18 10:51:58.919] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:52:02 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:02.835] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:52:02 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:02.835] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:52:06 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:06.749] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:52:06 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:06.749] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:52:06 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:06.749] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:52:12 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:12.713] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:52:16 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:16.626] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:52:16 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:16.626] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:52:18 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:18.624] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 10:52:18 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:18.887] Accepted 03269a9a Diff 20.8K/16384 BC5 0 pool 0 
+Fri Oct 18 10:52:20 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:20.541] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:52:20 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:20.541] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:52:20 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:20.541] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:52:22 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:22.621] Stratum from pool 0 detected new block at height 599894
+Fri Oct 18 10:52:26 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:26.700] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 10:52:26 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:26.804] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:52:26 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:26.967] Accepted 02f9f054 Diff 22K/16384 BC5 0 pool 0 
+Fri Oct 18 10:52:30 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:30.718] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:52:30 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:30.719] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:52:34 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:34.633] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:52:34 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:34.633] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:52:34 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:34.633] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:52:34 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:34.647] Version submitting share mask 0x00400000 with work version 0x20400000 and pool version 0x20000000
+Fri Oct 18 10:52:34 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:34.898] Accepted 03e68eea Diff 16.8K/16384 BC5 0 pool 0 
+Fri Oct 18 10:52:40 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:40.595] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:52:44 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:44.512] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:52:44 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:44.513] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:52:48 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:48.427] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:52:48 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:48.427] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:52:48 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:48.427] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:52:54 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:54.086] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 10:52:58 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:58.000] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:52:58 2019 daemon.err cgminer[1437]:  [2019-10-18 10:52:58.000] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:53:01 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:01.917] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:53:01 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:01.917] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:53:01 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:01.917] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 10:53:07 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:07.576] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:53:11 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:11.489] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:53:11 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:11.489] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:53:15 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:15.404] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:53:15 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:15.404] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:53:15 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:15.404] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:53:21 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:21.364] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:53:25 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:25.280] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:53:25 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:25.280] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:53:29 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:29.194] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:53:29 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:29.195] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:53:29 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:29.195] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:53:34 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:34.854] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:53:38 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:38.767] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:53:38 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:38.767] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:53:42 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:42.684] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:53:42 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:42.684] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:53:42 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:42.684] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:53:48 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:48.344] sensors: 5/0 temperature (62.0,76.0)
+Fri Oct 18 10:53:52 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:52.259] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:53:52 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:52.259] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:53:56 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:56.173] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:53:56 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:56.174] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:53:56 2019 daemon.err cgminer[1437]:  [2019-10-18 10:53:56.174] sensors: overall max.temp. (62.0,76.0)
+Fri Oct 18 10:54:01 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:01.832] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:54:05 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:05.746] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:54:05 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:05.746] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:54:09 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:09.660] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:54:09 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:09.661] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:54:09 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:09.661] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:54:15 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:15.320] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:54:17 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:17.505] Version submitting share mask 0x00400000 with work version 0x20400000 and pool version 0x20000000
+Fri Oct 18 10:54:17 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:17.770] Accepted 0393f649 Diff 18.3K/16384 BC5 0 pool 0 
+Fri Oct 18 10:54:19 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:19.235] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:54:19 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:19.235] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:54:23 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:23.150] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:54:23 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:23.150] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:54:23 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:23.150] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:54:28 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:28.808] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:54:32 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:32.722] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:54:32 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:32.722] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:54:36 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:36.636] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:54:36 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:36.636] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:54:36 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:36.636] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:54:36 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:36.712] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 10:54:36 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:36.965] Accepted 02a2e1b5 Diff 24.9K/16384 BC5 0 pool 0 
+Fri Oct 18 10:54:42 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:42.295] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:54:46 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:46.149] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 10:54:46 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:46.214] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:54:46 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:46.214] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:54:46 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:46.425] Accepted 017e9a2d Diff 43.9K/16384 BC5 0 pool 0 
+Fri Oct 18 10:54:50 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:50.128] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:54:50 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:50.129] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:54:50 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:50.129] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:54:55 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:55.788] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:54:59 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:59.701] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:54:59 2019 daemon.err cgminer[1437]:  [2019-10-18 10:54:59.701] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:55:00 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:00.550] Version submitting share mask 0x00c00000 with work version 0x20c00000 and pool version 0x20000000
+Fri Oct 18 10:55:00 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:00.810] Accepted 0190ac40 Diff 41.9K/16384 BC5 0 pool 0 
+Fri Oct 18 10:55:03 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:03.616] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:55:03 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:03.616] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:55:03 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:03.616] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:55:07 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:07.378] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 10:55:07 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:07.442] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 10:55:07 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:07.652] Accepted 02572165 Diff 28K/16384 BC5 0 pool 0 
+Fri Oct 18 10:55:07 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:07.702] Accepted 03001eff Diff 21.8K/16384 BC5 0 pool 0 
+Fri Oct 18 10:55:09 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:09.275] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:55:13 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:13.191] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:55:13 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:13.191] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:55:17 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:17.106] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:55:17 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:17.106] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:55:17 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:17.106] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:55:18 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:18.174] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 10:55:18 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:18.435] Accepted 034e3392 Diff 19.8K/16384 BC5 0 pool 0 
+Fri Oct 18 10:55:22 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:22.765] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:55:26 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:26.681] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:55:26 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:26.681] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:55:30 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:30.594] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:55:30 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:30.594] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:55:30 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:30.594] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:55:36 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:36.252] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:55:40 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:40.166] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:55:40 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:40.166] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:55:44 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:44.081] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:55:44 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:44.081] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:55:44 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:44.081] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:55:45 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:45.465] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 10:55:45 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:45.732] Accepted 7f880615 Diff 132K/16384 BC5 0 pool 0 
+Fri Oct 18 10:55:49 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:49.739] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:55:53 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:53.656] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:55:53 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:53.656] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:55:54 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:54.702] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 10:55:54 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:54.968] Accepted 0276c091 Diff 26.6K/16384 BC5 0 pool 0 
+Fri Oct 18 10:55:55 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:55.298] Version submitting share mask 0x00c00000 with work version 0x20c00000 and pool version 0x20000000
+Fri Oct 18 10:55:55 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:55.567] Accepted 03c272d5 Diff 17.4K/16384 BC5 0 pool 0 
+Fri Oct 18 10:55:57 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:57.570] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:55:57 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:57.571] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:55:57 2019 daemon.err cgminer[1437]:  [2019-10-18 10:55:57.571] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:56:03 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:03.230] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:56:07 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:07.148] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:56:07 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:07.148] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:56:11 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:11.061] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:56:11 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:11.061] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:56:11 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:11.061] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:56:16 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:16.720] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:56:20 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:20.636] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:56:20 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:20.636] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:56:24 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:24.550] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:56:24 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:24.551] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:56:24 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:24.551] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:56:30 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:30.209] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:56:34 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:34.126] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:56:34 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:34.126] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:56:34 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:34.918] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 10:56:35 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:35.175] Accepted 01f60928 Diff 33.4K/16384 BC5 0 pool 0 
+Fri Oct 18 10:56:38 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:38.041] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:56:38 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:38.041] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:56:38 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:38.041] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:56:43 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:43.700] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:56:46 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:46.107] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 10:56:46 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:46.368] Accepted 031f4af9 Diff 21K/16384 BC5 0 pool 0 
+Fri Oct 18 10:56:47 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:47.615] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:56:47 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:47.616] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:56:51 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:51.530] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:56:51 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:51.530] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:56:51 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:51.531] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:56:51 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:51.777] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 10:56:52 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:52.048] Accepted 0238fcf2 Diff 29.5K/16384 BC5 0 pool 0 
+Fri Oct 18 10:56:57 2019 daemon.err cgminer[1437]:  [2019-10-18 10:56:57.190] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:57:01 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:01.103] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:57:01 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:01.103] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:57:02 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:02.137] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 10:57:02 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:02.386] Accepted 028e3c4a Diff 25.6K/16384 BC5 0 pool 0 
+Fri Oct 18 10:57:05 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:05.017] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:57:05 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:05.018] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:57:05 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:05.018] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:57:10 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:10.676] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:57:14 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:14.593] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:57:14 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:14.593] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:57:18 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:18.507] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:57:18 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:18.508] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:57:18 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:18.508] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:57:20 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:20.057] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 10:57:20 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:20.310] Accepted 4c77bf0e Diff 219K/16384 BC5 0 pool 0 
+Fri Oct 18 10:57:24 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:24.166] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:57:28 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:28.080] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:57:28 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:28.080] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:57:31 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:31.994] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:57:31 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:31.994] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:57:31 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:31.995] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:57:37 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:37.653] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:57:41 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:41.572] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:57:41 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:41.572] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:57:45 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:45.487] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:57:45 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:45.487] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:57:45 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:45.487] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:57:51 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:51.146] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:57:55 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:55.057] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:57:55 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:55.057] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:57:57 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:57.194] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 10:57:57 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:57.461] Accepted 0241fa44 Diff 29K/16384 BC5 0 pool 0 
+Fri Oct 18 10:57:58 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:58.971] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:57:58 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:58.972] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:57:58 2019 daemon.err cgminer[1437]:  [2019-10-18 10:57:58.972] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:58:04 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:04.631] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:58:08 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:08.544] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:58:08 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:08.544] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:58:12 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:12.459] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:58:12 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:12.459] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:58:12 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:12.459] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:58:18 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:18.120] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:58:20 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:20.317] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 10:58:20 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:20.582] Accepted 01962bef Diff 41.3K/16384 BC5 0 pool 0 
+Fri Oct 18 10:58:22 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:22.037] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:58:22 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:22.037] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:58:25 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:25.951] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:58:25 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:25.951] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:58:25 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:25.952] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:58:31 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:31.612] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:58:35 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:35.529] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:58:35 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:35.529] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:58:39 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:39.446] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:58:39 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:39.446] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:58:39 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:39.446] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:58:45 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:45.105] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:58:49 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:49.024] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:58:49 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:49.024] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:58:52 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:52.942] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:58:52 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:52.942] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:58:52 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:52.942] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:58:58 2019 daemon.err cgminer[1437]:  [2019-10-18 10:58:58.600] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:59:00 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:00.481] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 10:59:00 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:00.745] Accepted 019cfa82 Diff 40.6K/16384 BC5 0 pool 0 
+Fri Oct 18 10:59:02 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:02.517] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:59:02 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:02.517] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:59:05 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:05.431] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 10:59:05 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:05.696] Accepted 024440f7 Diff 28.9K/16384 BC5 0 pool 0 
+Fri Oct 18 10:59:06 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:06.434] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:59:06 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:06.435] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:59:06 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:06.435] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:59:12 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:12.093] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:59:16 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:16.009] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:59:16 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:16.009] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:59:19 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:19.921] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:59:19 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:19.922] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:59:19 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:19.922] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:59:25 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:25.582] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:59:25 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:25.845] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 10:59:26 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:26.090] Accepted 01494a34 Diff 50.9K/16384 BC5 0 pool 0 
+Fri Oct 18 10:59:27 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:27.673] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 10:59:27 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:27.946] Accepted 5ffc4a05 Diff 175K/16384 BC5 0 pool 0 
+Fri Oct 18 10:59:29 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:29.496] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:59:29 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:29.496] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:59:33 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:33.411] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:59:33 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:33.411] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:59:33 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:33.411] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 10:59:39 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:39.072] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 10:59:42 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:42.986] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:59:42 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:42.986] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 10:59:45 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:45.084] Version submitting share mask 0x00400000 with work version 0x20400000 and pool version 0x20000000
+Fri Oct 18 10:59:45 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:45.336] Accepted 039913ca Diff 18.2K/16384 BC5 0 pool 0 
+Fri Oct 18 10:59:46 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:46.900] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 10:59:46 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:46.900] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 10:59:46 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:46.900] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 10:59:52 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:52.561] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 10:59:55 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:55.822] Version submitting share mask 0x00400000 with work version 0x20400000 and pool version 0x20000000
+Fri Oct 18 10:59:56 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:56.110] Accepted 9f00aa9c Diff 106K/16384 BC5 0 pool 0 
+Fri Oct 18 10:59:56 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:56.477] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 10:59:56 2019 daemon.err cgminer[1437]:  [2019-10-18 10:59:56.477] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:00:00 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:00.395] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:00:00 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:00.395] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:00:00 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:00.395] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 11:00:06 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:06.053] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 11:00:07 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:07.641] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 11:00:07 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:07.909] Accepted e37d8ada Diff 73.7K/16384 BC5 0 pool 0 
+Fri Oct 18 11:00:09 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:09.970] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:00:09 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:09.970] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:00:13 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:13.882] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:00:13 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:13.882] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:00:13 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:13.882] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 11:00:18 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:18.947] Version submitting share mask 0x00400000 with work version 0x20400000 and pool version 0x20000000
+Fri Oct 18 11:00:19 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:19.209] Accepted 01356329 Diff 54.2K/16384 BC5 0 pool 0 
+Fri Oct 18 11:00:19 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:19.540] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 11:00:23 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:23.459] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:00:23 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:23.459] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:00:27 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:27.377] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:00:27 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:27.377] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:00:27 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:27.377] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 11:00:33 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:33.036] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 11:00:36 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:36.951] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:00:36 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:36.952] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:00:37 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:37.461] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 11:00:37 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:37.729] Accepted 01013ef2 Diff 65.2K/16384 BC5 0 pool 0 
+Fri Oct 18 11:00:40 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:40.866] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:00:40 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:40.866] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:00:40 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:40.866] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 11:00:41 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:41.558] Version submitting share mask 0x00c00000 with work version 0x20c00000 and pool version 0x20000000
+Fri Oct 18 11:00:41 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:41.823] Accepted 0238a666 Diff 29.5K/16384 BC5 0 pool 0 
+Fri Oct 18 11:00:46 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:46.524] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 11:00:50 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:50.439] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:00:50 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:50.439] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:00:51 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:51.698] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 11:00:51 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:51.980] Accepted 02a9e965 Diff 24.6K/16384 BC5 0 pool 0 
+Fri Oct 18 11:00:54 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:54.355] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:00:54 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:54.356] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:00:54 2019 daemon.err cgminer[1437]:  [2019-10-18 11:00:54.356] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 11:01:00 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:00.014] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 11:01:02 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:02.044] Version submitting share mask 0x00400000 with work version 0x20400000 and pool version 0x20000000
+Fri Oct 18 11:01:02 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:02.297] Accepted 017ec372 Diff 43.8K/16384 BC5 0 pool 0 
+Fri Oct 18 11:01:03 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:03.928] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:01:03 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:03.928] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:01:07 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:07.842] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:01:07 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:07.842] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:01:07 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:07.843] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 11:01:11 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:11.070] Version submitting share mask 0x00800000 with work version 0x20800000 and pool version 0x20000000
+Fri Oct 18 11:01:11 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:11.348] Accepted e54032d4 Diff 73.2K/16384 BC5 0 pool 0 
+Fri Oct 18 11:01:13 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:13.501] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 11:01:17 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:17.415] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:01:17 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:17.415] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:01:21 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:21.329] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:01:21 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:21.329] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:01:21 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:21.330] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 11:01:26 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:26.988] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:01:30 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:30.901] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:01:30 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:30.901] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:01:34 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:34.816] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:01:34 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:34.816] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:01:34 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:34.816] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:01:40 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:40.476] sensors: 5/0 temperature (60.0,73.0)
+Fri Oct 18 11:01:44 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:44.390] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:01:44 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:44.390] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:01:48 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:48.305] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:01:48 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:48.305] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:01:48 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:48.306] sensors: overall max.temp. (60.0,73.0)
+Fri Oct 18 11:01:53 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:53.076] Version submitting share mask 0x00400000 with work version 0x20400000 and pool version 0x20000000
+Fri Oct 18 11:01:53 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:53.432] Accepted 9eab7c3e Diff 106K/16384 BC5 0 pool 0 
+Fri Oct 18 11:01:53 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:53.964] sensors: 5/0 temperature (60.0,74.0)
+Fri Oct 18 11:01:57 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:57.880] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:01:57 2019 daemon.err cgminer[1437]:  [2019-10-18 11:01:57.880] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:02:01 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:01.794] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:02:01 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:01.795] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:02:01 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:01.795] sensors: overall max.temp. (60.0,74.0)
+Fri Oct 18 11:02:05 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:05.557] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 11:02:05 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:05.826] Accepted 033991a3 Diff 20.3K/16384 BC5 0 pool 0 
+Fri Oct 18 11:02:07 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:07.454] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:02:11 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:11.367] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:02:11 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:11.367] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:02:12 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:12.913] Version submitting share mask 0x00c00000 with work version 0x20c00000 and pool version 0x20000000
+Fri Oct 18 11:02:13 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:13.167] Accepted 0141ac86 Diff 52.2K/16384 BC5 0 pool 0 
+Fri Oct 18 11:02:15 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:15.281] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:02:15 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:15.281] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:02:15 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:15.282] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:02:20 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:20.261] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 11:02:20 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:20.527] Accepted 02d2cf9e Diff 23.2K/16384 BC5 0 pool 0 
+Fri Oct 18 11:02:20 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:20.941] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:02:24 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:24.856] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:02:24 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:24.856] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:02:28 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:28.770] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:02:28 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:28.770] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:02:28 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:28.771] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:02:34 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:34.429] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:02:38 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:38.348] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:02:38 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:38.348] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:02:42 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:42.263] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:02:42 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:42.263] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:02:42 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:42.263] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:02:47 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:47.922] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:02:49 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:49.493] Version submitting share mask 0x00c00000 with work version 0x20c00000 and pool version 0x20000000
+Fri Oct 18 11:02:49 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:49.768] Accepted 03081c05 Diff 21.6K/16384 BC5 0 pool 0 
+Fri Oct 18 11:02:51 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:51.835] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:02:51 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:51.835] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:02:55 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:55.749] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:02:55 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:55.750] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:02:55 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:55.750] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:02:59 2019 daemon.err cgminer[1437]:  [2019-10-18 11:02:59.076] Stratum from pool 0 detected new block at height 599895
+Fri Oct 18 11:03:01 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:01.409] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:03:01 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:01.456] Version submitting share mask 0x00400000 with work version 0x20400000 and pool version 0x20000000
+Fri Oct 18 11:03:01 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:01.726] Accepted 03710c8c Diff 19K/16384 BC5 0 pool 0 
+Fri Oct 18 11:03:05 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:05.324] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:03:05 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:05.324] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:03:09 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:09.239] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:03:09 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:09.239] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:03:09 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:09.239] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:03:11 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:11.328] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 11:03:11 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:11.606] Accepted 9af97180 Diff 108K/16384 BC5 0 pool 0 
+Fri Oct 18 11:03:14 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:14.898] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:03:16 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:16.804] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 11:03:17 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:17.085] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 11:03:17 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:17.086] Accepted 02a882d8 Diff 24.7K/16384 BC5 0 pool 0 
+Fri Oct 18 11:03:17 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:17.331] Accepted 022d58d2 Diff 30.1K/16384 BC5 0 pool 0 
+Fri Oct 18 11:03:18 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:18.811] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:03:18 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:18.811] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:03:22 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:22.726] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:03:22 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:22.726] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:03:22 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:22.726] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:03:24 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:24.716] Version submitting share mask 0x00c00000 with work version 0x20c00000 and pool version 0x20000000
+Fri Oct 18 11:03:24 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:24.971] Accepted 019772be Diff 41.2K/16384 BC5 0 pool 0 
+Fri Oct 18 11:03:28 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:28.385] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:03:32 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:32.300] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:03:32 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:32.300] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:03:36 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:36.215] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:03:36 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:36.215] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:03:36 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:36.215] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:03:41 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:41.874] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:03:45 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:45.790] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:03:45 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:45.791] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:03:49 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:49.705] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:03:49 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:49.705] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:03:49 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:49.705] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:03:55 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:55.061] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 11:03:55 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:55.345] Accepted 0179c7fe Diff 44.4K/16384 BC5 0 pool 0 
+Fri Oct 18 11:03:55 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:55.364] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:03:59 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:59.280] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:03:59 2019 daemon.err cgminer[1437]:  [2019-10-18 11:03:59.281] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:04:03 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:03.195] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:04:03 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:03.195] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:04:03 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:03.195] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:04:07 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:07.527] Version submitting share mask 0x00400000 with work version 0x20400000 and pool version 0x20000000
+Fri Oct 18 11:04:07 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:07.786] Accepted 030892c1 Diff 21.6K/16384 BC5 0 pool 0 
+Fri Oct 18 11:04:08 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:08.854] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 11:04:12 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:12.767] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:04:12 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:12.768] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:04:16 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:16.682] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:04:16 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:16.682] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:04:16 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:16.682] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 11:04:19 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:19.379] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 11:04:19 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:19.614] Accepted fa4df0b6 Diff 67K/16384 BC5 0 pool 0 
+Fri Oct 18 11:04:22 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:22.342] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:04:26 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:26.255] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:04:26 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:26.255] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:04:30 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:30.169] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:04:30 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:30.170] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:04:30 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:30.170] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:04:35 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:35.829] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:04:39 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:39.744] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:04:39 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:39.745] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:04:42 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:42.309] Version submitting share mask 0x00400000 with work version 0x20400000 and pool version 0x20000000
+Fri Oct 18 11:04:42 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:42.569] Accepted 51e7a21c Diff 205K/16384 BC5 0 pool 0 
+Fri Oct 18 11:04:43 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:43.657] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:04:43 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:43.657] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:04:43 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:43.657] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:04:49 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:49.317] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 11:04:49 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:49.676] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 11:04:49 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:49.948] Accepted 020724f6 Diff 32.3K/16384 BC5 0 pool 0 
+Fri Oct 18 11:04:53 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:53.234] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:04:53 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:53.235] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:04:55 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:55.350] Version submitting share mask 0x00c00000 with work version 0x20c00000 and pool version 0x20000000
+Fri Oct 18 11:04:55 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:55.612] Accepted 02e4f471 Diff 22.6K/16384 BC5 0 pool 0 
+Fri Oct 18 11:04:57 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:57.149] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:04:57 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:57.149] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:04:57 2019 daemon.err cgminer[1437]:  [2019-10-18 11:04:57.149] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 11:05:02 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:02.809] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 11:05:06 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:06.722] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:05:06 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:06.722] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:05:10 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:10.636] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:05:10 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:10.637] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:05:10 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:10.637] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 11:05:16 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:16.297] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:05:20 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:20.212] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:05:20 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:20.212] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:05:24 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:24.127] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:05:24 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:24.127] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:05:24 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:24.127] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:05:29 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:29.786] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:05:33 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:33.699] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:05:33 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:33.699] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:05:37 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:37.613] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:05:37 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:37.614] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:05:37 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:37.614] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:05:43 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:43.273] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 11:05:47 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:47.189] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:05:47 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:47.189] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:05:48 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:48.229] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 11:05:48 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:48.496] Accepted 010a6dcc Diff 63K/16384 BC5 0 pool 0 
+Fri Oct 18 11:05:51 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:51.104] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:05:51 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:51.104] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:05:51 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:51.104] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 11:05:56 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:56.762] sensors: 5/0 temperature (62.0,75.0)
+Fri Oct 18 11:05:57 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:57.436] Version submitting share mask 0x00000000 with work version 0x20000000 and pool version 0x20000000
+Fri Oct 18 11:05:57 2019 daemon.err cgminer[1437]:  [2019-10-18 11:05:57.708] Accepted 7f59fac7 Diff 132K/16384 BC5 0 pool 0 
+Fri Oct 18 11:06:00 2019 cron.err crond[22527]: user root: parse error at 1-24/3
+Fri Oct 18 11:06:00 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:00.673] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:06:00 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:00.673] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:06:04 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:04.588] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:06:04 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:04.588] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:06:04 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:04.588] sensors: overall max.temp. (62.0,75.0)
+Fri Oct 18 11:06:10 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:10.248] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 11:06:14 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:14.166] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:06:14 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:14.166] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:06:18 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:18.080] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:06:18 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:18.080] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:06:18 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:18.080] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 11:06:21 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:21.951] Version submitting share mask 0x00c00000 with work version 0x20c00000 and pool version 0x20000000
+Fri Oct 18 11:06:22 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:22.214] Accepted 02385281 Diff 29.5K/16384 BC5 0 pool 0 
+Fri Oct 18 11:06:23 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:23.741] sensors: 5/0 temperature (61.0,75.0)
+Fri Oct 18 11:06:27 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:27.658] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:06:27 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:27.658] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:06:31 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:31.573] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:06:31 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:31.573] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:06:31 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:31.573] sensors: overall max.temp. (61.0,75.0)
+Fri Oct 18 11:06:37 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:37.232] sensors: 5/0 temperature (61.0,74.0)
+Fri Oct 18 11:06:41 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:41.146] sensors: 6/0 temperature read failed, using previous
+Fri Oct 18 11:06:41 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:41.146] sensors: 6/0 temperature (57.0,66.0)
+Fri Oct 18 11:06:45 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:45.066] sensors: 7/0 temperature read failed, using previous
+Fri Oct 18 11:06:45 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:45.066] sensors: 7/0 temperature (59.0,73.0)
+Fri Oct 18 11:06:45 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:45.066] sensors: overall max.temp. (61.0,74.0)
+Fri Oct 18 11:06:50 2019 daemon.err cgminer[1437]:  [2019-10-18 11:06:50.725] sensors: 5/0 temperature (61.0,74.0)
