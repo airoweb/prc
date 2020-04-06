@@ -5,7 +5,7 @@
         "os": "B",
         "type": "s9j",
         "phase": "R",
-        "name": "Reza"
+        "name": "RE"
     },
     {
         "uid": 102,
@@ -13,7 +13,7 @@
         "os": "B",
         "type": "s9j",
         "phase": "R",
-        "name": "Reza"
+        "name": "RE"
     },
     {
         "uid": 103,
@@ -21,7 +21,7 @@
         "os": "B-sd",
         "type": "s9i",
         "phase": "R",
-        "name": "Reza"
+        "name": "RE"
     },
     {
         "uid": 104,
@@ -29,7 +29,7 @@
         "os": "B-sd",
         "type": "s9i",
         "phase": "R",
-        "name": "Reza"
+        "name": "RE"
     },
     {
         "uid": 105,
@@ -37,7 +37,7 @@
         "os": "B-sd",
         "type": "s9j",
         "phase": "S",
-        "name": "Reza"
+        "name": "RE"
     },
     {
         "uid": 106,
@@ -45,7 +45,7 @@
         "os": "B-sd",
         "type": "s9i",
         "phase": "S",
-        "name": "Reza"
+        "name": "RE"
     },
     {
         "uid": 107,
@@ -53,7 +53,7 @@
         "os": "B-sd",
         "type": "s9i",
         "phase": "S",
-        "name": "Reza"
+        "name": "RE"
     },
     {
         "uid": 108,
@@ -61,7 +61,7 @@
         "os": "B-sd",
         "type": "s9i",
         "phase": "S",
-        "name": "Reza"
+        "name": "RE"
     },
     {
         "uid": 109,
@@ -69,7 +69,7 @@
         "os": "B-sd",
         "type": "s9j",
         "phase": "T",
-        "name": "Reza"
+        "name": "RE"
     },
     {
         "uid": 110,
@@ -77,7 +77,7 @@
         "os": "B-sd",
         "type": "s9j",
         "phase": "T",
-        "name": "Behzad"
+        "name": "BE"
     },
     {
         "uid": 111,
@@ -85,7 +85,7 @@
         "os": "B-sd",
         "type": "s9j",
         "phase": "T",
-        "name": "Behzad"
+        "name": "BE"
     },
     {
         "uid": 112,
@@ -93,7 +93,7 @@
         "os": "B-sd",
         "type": "s9j",
         "phase": "T",
-        "name": "Behzad"
+        "name": "BE"
     },
     {
         "uid": 113,
@@ -101,7 +101,7 @@
         "os": "B-sd",
         "type": "s9i",
         "phase": "R",
-        "name": "Vahid"
+        "name": "VA"
     },
     {
         "uid": 114,
@@ -109,7 +109,7 @@
         "os": "B-sd",
         "type": "s9i",
         "phase": "R",
-        "name": "Vahid"
+        "name": "VA"
     },
     {
         "uid": 115,
@@ -117,7 +117,7 @@
         "os": "B",
         "type": "s9j",
         "phase": "R",
-        "name": "Vahid"
+        "name": "VA"
     },
     {
         "uid": 116,
@@ -125,7 +125,7 @@
         "os": "B",
         "type": "s9j",
         "phase": "X",
-        "name": "Vahid"
+        "name": "VA"
     },
     {
         "uid": 125,
@@ -133,7 +133,7 @@
         "os": "A",
         "type": "s11",
         "phase": "S",
-        "name": "Vahid"
+        "name": "VA"
     },
     {
         "uid": 126,
@@ -141,7 +141,7 @@
         "os": "B",
         "type": "s9j",
         "phase": "S",
-        "name": "Vahid"
+        "name": "VA"
     },
     {
         "uid": 140,
@@ -149,7 +149,7 @@
         "os": "B-sd",
         "type": "s9j",
         "phase": "S",
-        "name": "Behzad"
+        "name": "BE"
     },
     {
         "uid": 141,
@@ -157,7 +157,7 @@
         "os": "B",
         "type": "s9i",
         "phase": "S",
-        "name": "Behzad"
+        "name": "BE"
     },
     {
         "uid": 121,
@@ -165,7 +165,7 @@
         "os": "B",
         "type": "s9j",
         "phase": "T",
-        "name": "Behzad"
+        "name": "BE"
     },
     {
         "uid": 122,
@@ -173,7 +173,7 @@
         "os": "B",
         "type": "s9j",
         "phase": "T",
-        "name": "Behzad"
+        "name": "BE"
     },
     {
         "uid": 123,
@@ -181,7 +181,7 @@
         "os": "B",
         "type": "s9j",
         "phase": "T",
-        "name": "Amir"
+        "name": "AM"
     },
     {
         "uid": 124,
@@ -189,7 +189,7 @@
         "os": "B",
         "type": "s9j",
         "phase": "T",
-        "name": "Amir"
+        "name": "AM"
     },
     {
         "uid": 129,
@@ -197,7 +197,7 @@
         "os": "AV",
         "type": "Avalon",
         "phase": "R",
-        "name": "Hamid"
+        "name": "HA"
     },
     {
         "uid": 129,
@@ -205,7 +205,7 @@
         "os": "AV",
         "type": "Avalon",
         "phase": "R",
-        "name": "Hamid"
+        "name": "HA"
     },
     {
         "uid": 129,
@@ -213,7 +213,7 @@
         "os": "AV",
         "type": "Avalon",
         "phase": "R",
-        "name": "Hamid"
+        "name": "HA"
     },
     {
         "uid": 129,
@@ -221,7 +221,7 @@
         "os": "AV",
         "type": "Avalon",
         "phase": "R",
-        "name": "Hamid"
+        "name": "HA"
     },
     {
         "uid": 129,
@@ -229,7 +229,7 @@
         "os": "AV",
         "type": "Avalon",
         "phase": "S",
-        "name": "Hamid"
+        "name": "HA"
     },
     {
         "uid": 130,
@@ -237,7 +237,7 @@
         "os": "B",
         "type": "s9j",
         "phase": "S",
-        "name": "Hamid"
+        "name": "HA"
     },
     {
         "uid": 131,
@@ -245,7 +245,7 @@
         "os": "B",
         "type": "s9j",
         "phase": "S",
-        "name": "Hamid"
+        "name": "HA"
     },
     {
         "uid": 117,
@@ -253,7 +253,7 @@
         "os": "A",
         "type": "s11",
         "phase": "S",
-        "name": "Amir"
+        "name": "AM"
     },
     {
         "uid": 133,
@@ -261,7 +261,7 @@
         "os": "A",
         "type": "s11",
         "phase": "T",
-        "name": "Hamid"
+        "name": "HA"
     },
     {
         "uid": 134,
@@ -269,7 +269,7 @@
         "os": "A",
         "type": "s11",
         "phase": "T",
-        "name": "Hamid"
+        "name": "HA"
     },
     {
         "uid": 135,
@@ -277,7 +277,7 @@
         "os": "A",
         "type": "s11",
         "phase": "T",
-        "name": "Azmian"
+        "name": "AZ"
     },
     {
         "uid": 136,
@@ -285,7 +285,7 @@
         "os": "A",
         "type": "s11",
         "phase": "T",
-        "name": "Reza"
+        "name": "RE"
     },
     {
         "uid": "IP",
@@ -325,7 +325,7 @@
         "os": "B-sd",
         "type": "s9j",
         "phase": "S",
-        "name": "Hamid"
+        "name": "HA"
     },
     {
         "uid": 138,
@@ -333,7 +333,7 @@
         "os": "B-sd",
         "type": "s9j",
         "phase": "S",
-        "name": "Hamid"
+        "name": "HA"
     },
     {
         "uid": "IP",
@@ -357,7 +357,7 @@
         "os": "b-sd",
         "type": "s9j",
         "phase": "T",
-        "name": "Hamid"
+        "name": "HA"
     },
     {
         "uid": 132,
